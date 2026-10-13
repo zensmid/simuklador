@@ -6,7 +6,7 @@ from .base import DataProvider
 SUFFIX = {"HK": ".HK", "KS": ".KS", "KQ": ".KQ", "IJ": ".JK", "JP": ".T", "TT": ".TW", "NA": ".AS", "LN": ".L",
           "GR": ".DE", "FP": ".PA", "IM": ".MI", "SM": ".MC", "SW": ".SW", "AU": ".AX", "CN": ".TO", "SS": ".ST",
           "DC": ".CO", "FH": ".HE", "NO": ".OL", "BB": ".BR", "ID": ".IR", "PL": ".LS", "SP": ".SI", "MK": ".KL",
-          "TB": ".BK", "IN": ".NS", "CH": ".SS", "CS": ".SZ", "BZ": ".SA", "MM": ".MX", "SJ": ".JO"}
+          "TB": ".BK", "CI": ".SN", "TI": ".IS", "PM": ".PS", "AB": ".SR", "IN": ".NS", "CH": ".SS", "CS": ".SZ", "BZ": ".SA", "MM": ".MX", "SJ": ".JO"}
 
 
 def to_yahoo(t: str) -> str:
