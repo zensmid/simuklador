@@ -2,7 +2,7 @@
 from __future__ import annotations
 import datetime as dt
 import pandas as pd
-from .providers.yf import to_yahoo
+from .providers.yf import to_yahoo, _call
 
 
 def earnings_info(ticker: str, window_days: int = 30) -> dict:
@@ -12,7 +12,7 @@ def earnings_info(ticker: str, window_days: int = 30) -> dict:
     t = yf.Ticker(y)
     out: dict = {"ticker": ticker, "next_date": None, "days_to": None, "eps_est": None, "history": [], "targets": {}}
     try:
-        ed = t.get_earnings_dates(limit=12)
+        ed = _call(lambda: t.get_earnings_dates(limit=12))
         if ed is not None and not ed.empty:
             ed = ed.copy(); ed.index = ed.index.tz_localize(None) if ed.index.tz is None else ed.index.tz_convert(None)
             now = pd.Timestamp.now()
@@ -22,7 +22,7 @@ def earnings_info(ticker: str, window_days: int = 30) -> dict:
                 out["next_date"] = nxt.strftime("%Y-%m-%d"); out["days_to"] = int((nxt - now).days)
                 est = fut.loc[nxt].get("EPS Estimate")
                 out["eps_est"] = None if pd.isna(est) else float(est)
-            px = t.history(period="2y", auto_adjust=True)["Close"]; px.index = px.index.tz_localize(None)
+            px = _call(lambda: t.history(period="2y", auto_adjust=True))["Close"]; px.index = px.index.tz_localize(None)
             for d, r in ed[ed.index < now.normalize()].head(4).iterrows():
                 after = px[px.index >= d.normalize()]; before = px[px.index < d.normalize()]
                 if len(after) >= 2 and len(before):
@@ -31,7 +31,7 @@ def earnings_info(ticker: str, window_days: int = 30) -> dict:
     except Exception as e:  # noqa: BLE001
         out["error"] = str(e)
     try:
-        i = t.info or {}
+        i = _call(lambda: t.info) or {}
         out["targets"] = {k: i.get(k) for k in ("targetMeanPrice", "targetHighPrice", "targetLowPrice", "recommendationMean",
                                                  "numberOfAnalystOpinions", "currentPrice")}
     except Exception:  # noqa: BLE001
