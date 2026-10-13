@@ -15,7 +15,8 @@ def main(argv=None):
     b = sub.add_parser("backtest", help="Backtest cruce de medias"); b.add_argument("ticker"); b.add_argument("--fast", type=int, default=50); b.add_argument("--slow", type=int, default=200)
     pf = sub.add_parser("portfolio", help="Cartera del concurso (long-only, ≤20%%, 100%% invertida)")
     pf.add_argument("tickers", nargs="*"); pf.add_argument("--file", help="archivo con un ticker por línea")
-    pf.add_argument("-n", type=int, default=12, help="número de posiciones"); pf.add_argument("--capital", type=float, default=1_000_000)
+    pf.add_argument("--holdings", help="CSV ticker,usd con tus posiciones actuales: recorta >20%% y reparte el resto")
+    pf.add_argument("-n", type=int, default=12, help="número de posiciones (o nuevas con --holdings)"); pf.add_argument("--capital", type=float, default=1_000_000)
     g = sub.add_parser("agent", help="Agente conversacional con Claude"); g.add_argument("question", nargs="?")
     w = sub.add_parser("web", help="Dashboard web"); w.add_argument("--port", type=int, default=8000)
     args = p.parse_args(argv)
@@ -43,6 +44,11 @@ def main(argv=None):
         ts = list(args.tickers)
         if args.file: ts += [l.split("#")[0].strip() for l in open(args.file) if l.split("#")[0].strip()]
         if not ts: p.error("da tickers o --file")
+        if args.holdings:
+            import csv
+            from .portfolio import rebalance, format_rebalance
+            hold = {r[0].strip(): float(r[1]) for r in csv.reader(l for l in open(args.holdings) if l.strip() and not l.startswith("#"))}
+            print(format_rebalance(rebalance(hold, ts, prov, args.capital, args.n), args.capital)); return
         print(format_portfolio(build_portfolio(ts, prov, args.capital, args.n)))
     elif args.cmd == "backtest":
         print(json.dumps(backtest(prov.history(args.ticker, 1500), args.fast, args.slow), indent=2))
