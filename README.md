@@ -35,3 +35,8 @@ analyst portfolio --file universo.txt -n 12     # propone acciones enteras y pes
 ## Escaneo 24/7
 `analyst scan` filtra todo `universo.txt` (técnico, en lote), analiza a fondo el top 40 y escribe `reports/latest.md` + `reports/history.csv`, con rebalanceo sugerido sobre `holdings.csv`. `.github/workflows/scan.yml` lo corre cada 2 h en GitHub Actions y commitea el reporte (el cron solo corre desde la rama por defecto).
 `universo.txt` salió de OCR del PDF de EQS (~88% de filas): complétalo/verifícalo contra la Terminal.
+
+## Contexto, resultados Q3 y escenarios
+- `analyst events AAPL ANET DVN` → próxima fecha de resultados, EPS estimado, reacción del precio en los últimos 4 reportes y precio objetivo de analistas.
+- `analyst brief ANET DVN ...` → mercado (índices, VIX, tasas, dólar, petróleo, Asia), eventos, titulares y un informe con escenarios alcista/base/bajista (probabilidades subjetivas) generado por Claude. Requiere `ANTHROPIC_API_KEY`; sin ella solo imprime los datos.
+- El escaneo guarda `reports/events.md` y `reports/brief.md`. Para el briefing en GitHub Actions añade el secreto `ANTHROPIC_API_KEY` en Settings → Secrets → Actions.

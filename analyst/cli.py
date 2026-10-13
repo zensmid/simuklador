@@ -19,6 +19,8 @@ def main(argv=None):
     pf.add_argument("-n", type=int, default=12, help="número de posiciones (o nuevas con --holdings)"); pf.add_argument("--capital", type=float, default=1_000_000)
     sc = sub.add_parser("scan", help="Escanea todo el universo y genera reports/latest.md")
     sc.add_argument("--universe", default="universo.txt"); sc.add_argument("--holdings", default="holdings.csv"); sc.add_argument("--top", type=int, default=40)
+    ev = sub.add_parser("events", help="Fechas de resultados, consenso y reacciones pasadas"); ev.add_argument("tickers", nargs="+")
+    br = sub.add_parser("brief", help="Briefing: mercado + resultados + noticias + escenarios (Claude)"); br.add_argument("tickers", nargs="+")
     g = sub.add_parser("agent", help="Agente conversacional con Claude"); g.add_argument("question", nargs="?")
     w = sub.add_parser("web", help="Dashboard web"); w.add_argument("--port", type=int, default=8000)
     args = p.parse_args(argv)
@@ -30,6 +32,12 @@ def main(argv=None):
     if args.cmd == "agent":
         from .agent import chat
         chat(args.question); return
+    if args.cmd == "events":
+        from .events import earnings_info, format_events
+        print(format_events([earnings_info(t) for t in args.tickers])); return
+    if args.cmd == "brief":
+        from .brief import brief
+        ctx, rep = brief(args.tickers); print(ctx, "\n\n", rep); return
     if args.cmd == "scan":
         from .scan import run
         print(run(args.universe, args.holdings, args.top)); return
