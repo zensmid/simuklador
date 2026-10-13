@@ -23,3 +23,11 @@ analyst agent "¿Compro NVDA o AMD?"   # agente Claude (ANTHROPIC_API_KEY)
 Para añadir otro proveedor, implementa `analyst/providers/base.py`.
 
 > Herramienta educativa; no es asesoría financiera. Los umbrales de `analysis/` son un punto de partida a calibrar con backtests.
+
+## Bloomberg Trading Challenge 2026
+Reglas codificadas en `analyst/contest.py`: US$1M nocional, **solo largos**, sin apalancamiento, **máx 20% por posición** (≥5 posiciones), solo acciones del índice `WLS <Index><GO>` (**sin ETFs**), 100% invertido antes del **16-oct-2026 23:59 ET**, ganador por **Relative P&L** (`TMSG<GO>`). Las operaciones las envía el Capitán manualmente en la Terminal.
+
+```bash
+analyst portfolio --file universo.txt -n 12     # propone acciones enteras y pesos
+```
+`universo.txt`: un ticker por línea (acciones de WLS; exporta la lista desde la Terminal). Con `--provider bloomberg` o yfinance (tickers de EE. UU.; para otros mercados usa el formato Bloomberg, p. ej. `7203 JT`).
