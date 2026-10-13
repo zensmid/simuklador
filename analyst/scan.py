@@ -34,9 +34,29 @@ def _batch(tickers: list[str], days: int, chunk: int = 80) -> dict[str, pd.DataF
     return out
 
 
-def screen(universe: list[str], days: int = 300, min_dollar_vol: float = 1e6) -> pd.DataFrame:
+class CachedProvider:
+    """Sirve el historial ya descargado en lote y delega fundamentales/noticias (con reintentos) al proveedor real."""
+
+    def __init__(self, base, cache: dict):
+        self.base, self.cache = base, cache
+
+    def history(self, ticker, days=365):
+        df = self.cache.get(ticker)
+        return df.tail(days) if df is not None else self.base.history(ticker, days)
+
+    def fundamentals(self, ticker):
+        return self.base.fundamentals(ticker)
+
+    def news(self, ticker, limit=15):
+        return self.base.news(ticker, limit)
+
+
+def screen(universe: list[str], days: int = 300, min_dollar_vol: float = 1e6, cache: dict | None = None) -> pd.DataFrame:
     rows = []
-    for t, df in _batch(universe, days).items():
+    data = _batch(universe, days)
+    if cache is not None:
+        cache.update(data)
+    for t, df in data.items():
         try:
             tech = analyze_technical(df)
         except Exception:  # noqa: BLE001
@@ -51,9 +71,17 @@ def screen(universe: list[str], days: int = 300, min_dollar_vol: float = 1e6) ->
 def run(universe_path: str, holdings_path: str | None = None, top: int = 40, outdir: str = "reports", docs_dir: str = "docs") -> str:
     os.makedirs(outdir, exist_ok=True)
     uni = load_universe(universe_path)
-    scr = screen(uni)
+    hold = {}
+    if holdings_path and os.path.exists(holdings_path):
+        hold = {r[0].strip(): float(r[1]) for r in csv.reader(l for l in open(holdings_path) if l.strip() and not l.startswith("#"))}
+    cache: dict = {}
+    scr = screen(uni, cache=cache)
+    held = [t for t in hold if t != "OTHER"]
+    missing = [t for t in held if t not in cache]
+    if missing:
+        cache.update(_batch(missing, 300))
     now = dt.datetime.now(dt.timezone.utc)
-    prov = get_provider()
+    prov = CachedProvider(get_provider(), cache)
     deep = []
     for t in scr.head(top).ticker:
         try:
@@ -67,13 +95,10 @@ def run(universe_path: str, holdings_path: str | None = None, top: int = 40, out
         tc = a["technical"]
         L.append(f"| {i} | {t} | {a['recommendation']} | {s:+.2f} | {tc['score']:+.2f} | {a['fundamental']['score']:+.2f} | "
                  f"{a['sentiment']['score']:+.2f} | {tc['ret_3m']:+.0%} | {(tc['ret_1y'] or 0):+.0%} |")
-    hold = {}
-    if holdings_path and os.path.exists(holdings_path):
-        hold = {r[0].strip(): float(r[1]) for r in csv.reader(l for l in open(holdings_path) if l.strip() and not l.startswith("#"))}
+    if hold:
         reb = rebalance(hold, [t for _, t, _ in deep[:15]], prov, contest.CAPITAL)
         L += ["", "## Rebalanceo sugerido", "```", format_rebalance(reb), "```"]
     # Contexto: resultados Q3, mercado, noticias, briefing de Claude y export para el dashboard
-    held = [t for t in hold if t != "OTHER"]
     focus = list(dict.fromkeys(held + [t for _, t, _ in deep[:10]]))
     data, rep = None, "_Sin briefing_"
     try:
