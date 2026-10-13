@@ -1,0 +1,25 @@
+name: scan
+on:
+  schedule:
+    - cron: "17 */2 * * *"     # cada 2 horas, 24/7
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: scan
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - run: analyst scan --universe universo.txt --holdings holdings.csv --top 40
+        env:
+          DATA_PROVIDER: yfinance
+      - name: Publicar reporte
+        run: |
+          git config user.name "scan-bot" && git config user.email "bot@users.noreply.github.com"
+          git add reports && (git diff --cached --quiet || git commit -m "scan $(date -u +%FT%H:%MZ)")
+          git pull --rebase -q && git push

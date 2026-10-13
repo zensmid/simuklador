@@ -31,3 +31,7 @@ Reglas codificadas en `analyst/contest.py`: US$1M nocional, **solo largos**, sin
 analyst portfolio --file universo.txt -n 12     # propone acciones enteras y pesos
 ```
 `universo.txt`: un ticker por línea (acciones de WLS; exporta la lista desde la Terminal). Con `--provider bloomberg` o yfinance (tickers de EE. UU.; para otros mercados usa el formato Bloomberg, p. ej. `7203 JT`).
+
+## Escaneo 24/7
+`analyst scan` filtra todo `universo.txt` (técnico, en lote), analiza a fondo el top 40 y escribe `reports/latest.md` + `reports/history.csv`, con rebalanceo sugerido sobre `holdings.csv`. `.github/workflows/scan.yml` lo corre cada 2 h en GitHub Actions y commitea el reporte (el cron solo corre desde la rama por defecto).
+`universo.txt` salió de OCR del PDF de EQS (~88% de filas): complétalo/verifícalo contra la Terminal.

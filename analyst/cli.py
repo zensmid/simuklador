@@ -17,6 +17,8 @@ def main(argv=None):
     pf.add_argument("tickers", nargs="*"); pf.add_argument("--file", help="archivo con un ticker por línea")
     pf.add_argument("--holdings", help="CSV ticker,usd con tus posiciones actuales: recorta >20%% y reparte el resto")
     pf.add_argument("-n", type=int, default=12, help="número de posiciones (o nuevas con --holdings)"); pf.add_argument("--capital", type=float, default=1_000_000)
+    sc = sub.add_parser("scan", help="Escanea todo el universo y genera reports/latest.md")
+    sc.add_argument("--universe", default="universo.txt"); sc.add_argument("--holdings", default="holdings.csv"); sc.add_argument("--top", type=int, default=40)
     g = sub.add_parser("agent", help="Agente conversacional con Claude"); g.add_argument("question", nargs="?")
     w = sub.add_parser("web", help="Dashboard web"); w.add_argument("--port", type=int, default=8000)
     args = p.parse_args(argv)
@@ -28,6 +30,9 @@ def main(argv=None):
     if args.cmd == "agent":
         from .agent import chat
         chat(args.question); return
+    if args.cmd == "scan":
+        from .scan import run
+        print(run(args.universe, args.holdings, args.top)); return
     prov = get_provider()
     if args.cmd == "analyze":
         for t in args.tickers:
