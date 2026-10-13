@@ -1,0 +1,37 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analista de Trading</title>
+<style>
+:root{--bg:#0f1115;--card:#181b22;--tx:#e6e8ee;--mu:#8b93a7;--g:#2ecc71;--r:#e74c3c;--y:#f1c40f;--ac:#4f8cff}
+@media(prefers-color-scheme:light){:root{--bg:#f5f6f8;--card:#fff;--tx:#1b1e25;--mu:#667}}
+*{box-sizing:border-box}body{margin:0;font:15px system-ui,sans-serif;background:var(--bg);color:var(--tx);padding:16px;max-width:1000px;margin:auto}
+form{display:flex;gap:8px;margin-bottom:16px}input,button{padding:10px 12px;border-radius:8px;border:1px solid #333;font:inherit}
+input{flex:1;background:var(--card);color:var(--tx)}button{background:var(--ac);color:#fff;border:0;cursor:pointer}
+.card{background:var(--card);border-radius:12px;padding:16px;margin-bottom:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.big{font-size:28px;font-weight:700}.mu{color:var(--mu);font-size:13px}ul{padding-left:18px;margin:6px 0}canvas{width:100%;height:220px}
+.bar{height:8px;border-radius:4px;background:#0003;position:relative}.bar i{position:absolute;top:0;bottom:0;border-radius:4px}
+</style></head><body>
+<h1>Analista de Trading</h1>
+<form id="f"><input id="t" placeholder="Ticker (AAPL, MSFT, NVDA…)" value="AAPL"><button>Analizar</button></form>
+<div id="out"></div>
+<div class="card"><b>Pregunta al agente (Claude)</b><form id="q" style="margin:8px 0 0"><input id="qi" placeholder="¿Compro NVDA o AMD?"><button>Preguntar</button></form><pre id="ans" style="white-space:pre-wrap"></pre></div>
+<script>
+const $=id=>document.getElementById(id),col=s=>s>0.2?'var(--g)':s<-0.2?'var(--r)':'var(--y)';
+function bar(s){const w=Math.abs(s)*50;return `<div class="bar"><i style="background:${col(s)};${s>=0?'left:50%':'right:50%'};width:${w}%"></i></div>`}
+function draw(c,d){const x=c.getContext('2d'),W=c.width=c.clientWidth*2,H=c.height=440,mn=Math.min(...d),mx=Math.max(...d);
+x.strokeStyle='#4f8cff';x.lineWidth=3;x.beginPath();d.forEach((v,i)=>{const px=i/(d.length-1)*W,py=H-(v-mn)/(mx-mn||1)*(H-20)-10;i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke()}
+const sec=(n,o)=>`<div class="card"><b>${n}</b> <span class="mu">${o.score.toFixed(2)}</span>${bar(o.score)}<ul>${(o.notes||[]).map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+$('f').onsubmit=async e=>{e.preventDefault();$('out').innerHTML='Cargando…';
+ const r=await fetch('/api/analyze/'+encodeURIComponent($('t').value));const a=await r.json();
+ if(!r.ok){$('out').textContent=a.detail;return}
+ const t=a.technical;
+ $('out').innerHTML=`<div class="card grid"><div><div class="mu">${a.ticker}</div><div class="big" style="color:${col(a.score)}">${a.recommendation}</div><div class="mu">score ${a.score.toFixed(2)}</div></div>
+ <div><div class="mu">Precio</div><div class="big">${t.price.toFixed(2)}</div><div class="mu">Stop 2×ATR: ${t.stop_suggested.toFixed(2)}</div></div>
+ <div><div class="mu">RSI</div><div class="big">${t.rsi.toFixed(0)}</div><div class="mu">Vol anual ${(t.volatility_ann*100).toFixed(0)}%</div></div></div>
+ <div class="card"><canvas id="c"></canvas></div>
+ <div class="grid">${sec('Técnico',t)}${sec('Fundamental',a.fundamental)}
+ <div class="card"><b>Noticias</b> <span class="mu">${a.sentiment.score.toFixed(2)}</span>${bar(a.sentiment.score)}<ul>${a.sentiment.items.slice(0,6).map(i=>`<li>[${i.sentiment}] ${i.title}</li>`).join('')}</ul></div></div>`;
+ draw($('c'),a.chart.close)};
+$('q').onsubmit=async e=>{e.preventDefault();$('ans').textContent='Pensando…';
+ const r=await fetch('/api/ask',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({question:$('qi').value})});
+ $('ans').textContent=r.ok?(await r.json()).answer:'Error: configura ANTHROPIC_API_KEY'};
+</script></body></html>

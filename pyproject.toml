@@ -1,0 +1,19 @@
+[project]
+name = "trading-analyst"
+version = "0.1.0"
+description = "Analista de trading (técnico + fundamental + sentimiento) para concurso Bloomberg"
+requires-python = ">=3.10"
+dependencies = ["pandas", "numpy", "requests", "fastapi", "uvicorn", "anthropic", "yfinance", "lxml"]
+
+[project.optional-dependencies]
+bloomberg = ["blpapi"]
+dev = ["pytest"]
+
+[project.scripts]
+analyst = "analyst.cli:main"
+
+[tool.setuptools]
+packages = ["analyst", "analyst.providers", "analyst.analysis", "analyst.web"]
+
+[tool.setuptools.package-data]
+"analyst.web" = ["*.html"]
