@@ -40,3 +40,8 @@ analyst portfolio --file universo.txt -n 12     # propone acciones enteras y pes
 - `analyst events AAPL ANET DVN` → próxima fecha de resultados, EPS estimado, reacción del precio en los últimos 4 reportes y precio objetivo de analistas.
 - `analyst brief ANET DVN ...` → mercado (índices, VIX, tasas, dólar, petróleo, Asia), eventos, titulares y un informe con escenarios alcista/base/bajista (probabilidades subjetivas) generado por Claude. Requiere `ANTHROPIC_API_KEY`; sin ella solo imprime los datos.
 - El escaneo guarda `reports/events.md` y `reports/brief.md`. Para el briefing en GitHub Actions añade el secreto `ANTHROPIC_API_KEY` en Settings → Secrets → Actions.
+
+## Dashboard y automatización diaria
+`docs/index.html` es un dashboard estático (sin servidor) que lee `docs/data/latest.json`: reglas del concurso, cartera con límite del 20%, órdenes sugeridas, ranking ordenable, calendario de resultados, noticias, gráficos y el briefing de Claude.
+El workflow `scan` corre de lunes a viernes (12:15 y 21:15 UTC, y antes de Asia), actualiza `docs/data/` y `reports/` y hace commit. Para publicarlo: GitHub → Settings → Pages → *Deploy from a branch* → `main` / `/docs`. Para verlo en local: `python -m http.server -d docs`.
+Para actualizar tus posiciones edita `holdings.csv` (`ticker,usd`) y relanza el workflow.

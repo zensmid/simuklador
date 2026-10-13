@@ -48,7 +48,7 @@ def screen(universe: list[str], days: int = 300, min_dollar_vol: float = 1e6) ->
     return pd.DataFrame(rows).sort_values("tech_score", ascending=False)
 
 
-def run(universe_path: str, holdings_path: str | None = None, top: int = 40, outdir: str = "reports") -> str:
+def run(universe_path: str, holdings_path: str | None = None, top: int = 40, outdir: str = "reports", docs_dir: str = "docs") -> str:
     os.makedirs(outdir, exist_ok=True)
     uni = load_universe(universe_path)
     scr = screen(uni)
@@ -72,17 +72,24 @@ def run(universe_path: str, holdings_path: str | None = None, top: int = 40, out
         hold = {r[0].strip(): float(r[1]) for r in csv.reader(l for l in open(holdings_path) if l.strip() and not l.startswith("#"))}
         reb = rebalance(hold, [t for _, t, _ in deep[:15]], prov, contest.CAPITAL)
         L += ["", "## Rebalanceo sugerido", "```", format_rebalance(reb), "```"]
-    # Contexto: resultados Q3, mercado, noticias y briefing de Claude (posiciones + top)
-    focus = ([t for t in hold if t != "OTHER"] if holdings_path and os.path.exists(holdings_path) else []) + [t for _, t, _ in deep[:10]]
-    focus = list(dict.fromkeys(focus))
+    # Contexto: resultados Q3, mercado, noticias, briefing de Claude y export para el dashboard
+    held = [t for t in hold if t != "OTHER"]
+    focus = list(dict.fromkeys(held + [t for _, t, _ in deep[:10]]))
+    data, rep = None, "_Sin briefing_"
     try:
-        from .brief import brief
-        ctx, rep = brief(focus)
+        from .brief import brief, gather
+        data = gather(focus)
+        ctx, rep = brief(focus, data)
         open(os.path.join(outdir, "events.md"), "w", encoding="utf-8").write(f"# Contexto {now:%Y-%m-%d %H:%M} UTC\n\n{ctx}\n")
         open(os.path.join(outdir, "brief.md"), "w", encoding="utf-8").write(f"# Briefing {now:%Y-%m-%d %H:%M} UTC\n\n{rep}\n")
         L += ["", "Ver también: `events.md` (mercado, resultados Q3, titulares) y `brief.md` (escenarios con Claude)."]
     except Exception as e:  # noqa: BLE001
         L += ["", f"_Briefing no disponible: {e}_"]
+    try:
+        from .export import export_dashboard
+        export_dashboard(now, uni, scr, deep, hold, reb if hold else None, data, rep, prov, docs_dir)
+    except Exception as e:  # noqa: BLE001
+        L += ["", f"_Export del dashboard falló: {e}_"]
     L += ["", "_Herramienta educativa; no es asesoría financiera._"]
     md = "\n".join(L)
     open(os.path.join(outdir, "latest.md"), "w", encoding="utf-8").write(md)

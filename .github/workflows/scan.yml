@@ -1,7 +1,9 @@
 name: scan
 on:
   schedule:
-    - cron: "17 */2 * * *"     # cada 2 horas, 24/7
+    - cron: "15 12 * * 1-5"    # 08:15 ET: antes de la apertura de EE. UU. (Asia ya cerró)
+    - cron: "15 21 * * 1-5"    # 17:15 ET: tras el cierre de EE. UU.
+    - cron: "45 23 * * 0-4"    # antes de la apertura de Asia
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,5 +24,5 @@ jobs:
       - name: Publicar reporte
         run: |
           git config user.name "scan-bot" && git config user.email "bot@users.noreply.github.com"
-          git add reports && (git diff --cached --quiet || git commit -m "scan $(date -u +%FT%H:%MZ)")
+          git add reports docs/data && (git diff --cached --quiet || git commit -m "scan $(date -u +%FT%H:%MZ)")
           git pull --rebase -q && git push

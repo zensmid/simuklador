@@ -14,28 +14,33 @@ SYSTEM = ("Eres analista senior para el Bloomberg Trading Challenge (largo solo,
           "Sé explícito: son estimaciones, no certezas ni asesoría financiera.")
 
 
-def build_context(tickers: list[str], max_news: int = 6) -> str:
+def gather(tickers: list[str], max_news: int = 6) -> dict:
+    """Datos estructurados: mercado, resultados/consenso y titulares por ticker."""
     prov = get_provider()
-    parts = ["## Mercado\n" + format_snapshot(snapshot())]
-    infos = []
+    try: snap = snapshot()
+    except Exception as e: print(f"mercado: {e}"); snap = []  # noqa: BLE001,E701
+    infos, news = [], {}
     for t in tickers:
         try: infos.append(earnings_info(t))
         except Exception as e: print(f"{t}: {e}")  # noqa: BLE001,E701
-    parts.append("## Resultados y consenso\n" + format_events(infos))
-    news = []
-    for t in tickers:
-        try:
-            items = analyze_sentiment(prov.news(t, max_news))["items"]
-            if items: news.append(f"### {t}\n" + "\n".join(f"- [{i['sentiment']:+d}] {i['title']}" for i in items))
-        except Exception:  # noqa: BLE001
-            pass
-    parts.append("## Titulares recientes\n" + ("\n".join(news) or "n/d"))
-    return "\n\n".join(parts)
+        try: news[t] = analyze_sentiment(prov.news(t, max_news))["items"]
+        except Exception: news[t] = []  # noqa: BLE001
+    return {"snapshot": snap, "infos": infos, "news": news}
 
 
-def brief(tickers: list[str]) -> tuple[str, str]:
+def context_text(d: dict) -> str:
+    news = [f"### {t}\n" + "\n".join(f"- [{i['sentiment']:+d}] {i['title']}" for i in items) for t, items in d["news"].items() if items]
+    return "\n\n".join(["## Mercado\n" + format_snapshot(d["snapshot"]), "## Resultados y consenso\n" + format_events(d["infos"]),
+                         "## Titulares recientes\n" + ("\n".join(news) or "n/d")])
+
+
+def build_context(tickers: list[str], max_news: int = 6) -> str:
+    return context_text(gather(tickers, max_news))
+
+
+def brief(tickers: list[str], data: dict | None = None) -> tuple[str, str]:
     """Devuelve (contexto, informe). Sin ANTHROPIC_API_KEY solo hay contexto."""
-    ctx = build_context(tickers)
+    ctx = context_text(data or gather(tickers))
     if not os.environ.get("ANTHROPIC_API_KEY"):
         return ctx, "_Sin ANTHROPIC_API_KEY: solo contexto de datos._"
     import anthropic
