@@ -1,9 +1,15 @@
-# ticker,usd  -- Terminal TMSG 14-oct-2026 12:48 (Rgo bruto por posición). Actualiza tras cada operación.
-# CASH = "Efectivo disponible" de la Terminal (no es una posición).
+# ticker,usd  -- Terminal TMSG 14-oct-2026 12:56 (Rgo bruto). Incluye órdenes en "Apertura" (pendientes). Actualiza tras cada operación.
+# CASH = efectivo no comprometido (Efectivo disponible 193,134 menos órdenes pendientes 193,130).
+MRX US,165244
 1138 HK,83282
-ASML NA,47728
-ANET US,90458
+ASML NA,47719
+ANET US,90451
 2899 HK,199104
-DVN US,204575
-MRX US,165802
-CASH,193134
+DVN US,204370
+322000 KS,17040
+3402 JP,17030
+3774 JP,17030
+857 HK,17030
+2914 JP,25000
+AAPL US,100000
+CASH,4
