@@ -25,3 +25,14 @@ def test_scan_with_context(tmp_path, monkeypatch):
     scan.run(str(u), None, top=5, outdir=str(tmp_path / "r"), docs_dir=str(tmp_path / "docs"))
     assert "2026-10-20" in (tmp_path / "r" / "events.md").read_text()
     assert (tmp_path / "r" / "brief.md").exists()
+
+
+def test_study_runs_and_noise_has_no_signal():
+    import numpy as np, pandas as pd
+    from analyst.study import run_study, to_markdown
+    rng = np.random.default_rng(1)
+    idx = pd.bdate_range("2022-01-03", periods=900)
+    px = pd.DataFrame(100 * np.exp(np.cumsum(rng.normal(0, .02, (900, 120)), axis=0)), index=idx, columns=[f"S{i}" for i in range(120)])
+    s = run_study(px)
+    assert abs(s["factors"]["composite_all"]["ic_mean"]) < 0.06      # ruido blanco: sin señal
+    assert "Estudio de factores" in to_markdown(s)

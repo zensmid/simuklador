@@ -21,6 +21,7 @@ def main(argv=None):
     sc.add_argument("--universe", default="universo.txt"); sc.add_argument("--holdings", default="holdings.csv"); sc.add_argument("--top", type=int, default=40)
     ev = sub.add_parser("events", help="Fechas de resultados, consenso y reacciones pasadas"); ev.add_argument("tickers", nargs="+")
     br = sub.add_parser("brief", help="Briefing: mercado + resultados + noticias + escenarios (Claude)"); br.add_argument("tickers", nargs="+")
+    st = sub.add_parser("study", help="Backtest de factores sobre el universo (¿qué señales funcionan?)"); st.add_argument("--universe", default="universo.txt")
     g = sub.add_parser("agent", help="Agente conversacional con Claude"); g.add_argument("question", nargs="?")
     w = sub.add_parser("web", help="Dashboard web"); w.add_argument("--port", type=int, default=8000)
     args = p.parse_args(argv)
@@ -38,6 +39,9 @@ def main(argv=None):
     if args.cmd == "brief":
         from .brief import brief
         ctx, rep = brief(args.tickers); print(ctx, "\n\n", rep); return
+    if args.cmd == "study":
+        from .study import run as run_study
+        print(run_study(args.universe)); return
     if args.cmd == "scan":
         from .scan import run
         print(run(args.universe, args.holdings, args.top)); return
