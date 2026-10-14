@@ -74,6 +74,7 @@ def run(universe_path: str, holdings_path: str | None = None, top: int = 40, out
     hold = {}
     if holdings_path and os.path.exists(holdings_path):
         hold = {r[0].strip(): float(r[1]) for r in csv.reader(l for l in open(holdings_path) if l.strip() and not l.startswith("#"))}
+    cash = hold.pop("CASH", None)   # efectivo disponible (Terminal: "Efectivo disponible")
     cache: dict = {}
     scr = screen(uni, cache=cache)
     held = [t for t in hold if t != "OTHER"]
@@ -96,7 +97,7 @@ def run(universe_path: str, holdings_path: str | None = None, top: int = 40, out
         L.append(f"| {i} | {t} | {a['recommendation']} | {s:+.2f} | {tc['score']:+.2f} | {a['fundamental']['score']:+.2f} | "
                  f"{a['sentiment']['score']:+.2f} | {tc['ret_3m']:+.0%} | {(tc['ret_1y'] or 0):+.0%} |")
     if hold:
-        reb = rebalance(hold, [t for _, t, _ in deep[:15]], prov, contest.CAPITAL)
+        reb = rebalance(hold, [t for _, t, _ in deep[:15]], prov, contest.CAPITAL, n_new=5, cash=cash)
         L += ["", "## Rebalanceo sugerido", "```", format_rebalance(reb), "```"]
     # Contexto: resultados Q3, mercado, noticias, briefing de Claude y export para el dashboard
     focus = list(dict.fromkeys(held + [t for _, t, _ in deep[:10]]))
@@ -112,7 +113,7 @@ def run(universe_path: str, holdings_path: str | None = None, top: int = 40, out
         L += ["", f"_Briefing no disponible: {e}_"]
     try:
         from .export import export_dashboard
-        export_dashboard(now, uni, scr, deep, hold, reb if hold else None, data, rep, prov, docs_dir)
+        export_dashboard(now, uni, scr, deep, hold, reb if hold else None, data, rep, prov, docs_dir, cash)
     except Exception as e:  # noqa: BLE001
         L += ["", f"_Export del dashboard falló: {e}_"]
     L += ["", "_Herramienta educativa; no es asesoría financiera._"]

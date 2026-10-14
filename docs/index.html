@@ -49,15 +49,15 @@ function render(){
   const d=D;
   if(!d||d.empty){$('#app').innerHTML='<div class="empty"><h2>Esperando el primer escaneo</h2>Ejecuta el workflow <b>scan</b> en la pestaña Actions de GitHub.</div>';return}
   const pos=d.positions||[],known=pos.filter(p=>!p.unknown);
-  const invested=pos.reduce((a,p)=>a+p.value,0),cash=d.capital-invested,maxW=Math.max(0,...pos.map(p=>p.weight));
+  const invested=pos.reduce((a,p)=>a+p.value,0),cash=d.cash!=null?d.cash:d.capital-invested,cashAfter=d.cash_after!=null?d.cash_after:cash,maxW=Math.max(0,...pos.map(p=>p.weight));
   const nonOther=pos.filter(p=>p.ticker!=='OTHER').length;
   const checks=[[maxW<=d.max_weight+1e-9,`Máx. por posición ${pct(maxW)} (límite 20%)`],[pos.length>=5,`${pos.length} posiciones (mínimo 5)`],
-    [Math.abs(cash)<d.capital*0.005,`Invertido ${pct(invested/d.capital)}; efectivo ${usd(cash)}`],[true,'Solo largos, sin apalancamiento, sin ETFs']];
+    [Math.abs(cashAfter)<d.capital*0.005,`Efectivo hoy ${usd(cash)}; tras las órdenes ${usd(cashAfter)}`],[true,'Solo largos, sin apalancamiento, sin ETFs']];
   const unk=pos.some(p=>p.unknown);
   const strip=(d.market||[]).map(m=>`<div class="chip">${esc(m.name)}<b>${m.last.toLocaleString('en-US',{maximumFractionDigits:2})}</b><span class="${cls(m.d1)}">${spct(m.d1,2)}</span> <span class="mu">1M ${spct(m.m1)}</span></div>`).join('');
   $('#app').innerHTML=`
   <div class="top"><div><h1>Trading Analyst · Bloomberg Challenge</h1><div class="mu">Actualizado ${ago(d.updated)} · universo ${d.universe} · con datos ${d.screened}</div></div>
-    <div class="kpi"><div><span class="mu">Plazo inversión 100%</span><b>${countdown()}</b></div><div><span class="mu">Posiciones</span><b>${pos.length}</b></div><div><span class="mu">Efectivo</span><b>${usd(cash)}</b></div></div></div>
+    <div class="kpi"><div><span class="mu">Plazo inversión 100%</span><b>${countdown()}</b></div><div><span class="mu">Posiciones</span><b>${pos.length}</b></div><div><span class="mu">Efectivo disponible</span><b>${usd(cash)}</b></div></div></div>
   ${strip?`<div class="strip">${strip}</div>`:''}
   ${unk?'<div class="warn">Hay posición(es) “OTHER” sin identificar en holdings.csv: reemplázala por el ticker real.</div>':''}
   <div class="grid"><div class="card"><h2>Reglas del concurso</h2><ul>${checks.map(c=>`<li class="${c[0]?'ok':'bad'}">${c[0]?'✔':'✖'} ${esc(c[1])}</li>`).join('')}</ul>

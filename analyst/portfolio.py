@@ -67,16 +67,17 @@ def format_portfolio(p: dict) -> str:
 
 def rebalance(holdings: dict[str, float], candidates: list[str], provider: DataProvider,
               capital: float = contest.CAPITAL, n_new: int = 3, trim_to: float = 0.195,
-              new_cap: float = 0.10, min_score: float = -0.1) -> dict:
+              new_cap: float = 0.10, min_score: float = -0.1, cash: float | None = None) -> dict:
     """Parte de las posiciones actuales (USD), recorta las que superan el 20% y
     reparte efectivo libre + recortes en nuevas posiciones. Órdenes en dólares
     (la Terminal pide el monto en USD por operación)."""
     orders, hold = [], dict(holdings)
+    base_cash = capital - sum(hold.values()) if cash is None else cash   # efectivo real de la Terminal si se conoce
     for t, v in list(hold.items()):
         if v > trim_to * capital:
             orders.append({"ticker": t, "action": "RECORTAR", "usd": v - trim_to * capital, "note": f"{v / capital:.1%} -> {trim_to:.1%}"})
             hold[t] = trim_to * capital
-    cash = capital - sum(hold.values())
+    cash = base_cash + sum(o["usd"] for o in orders)
     ranked = []
     for t in candidates:
         if t in hold:
@@ -101,7 +102,7 @@ def rebalance(holdings: dict[str, float], candidates: list[str], provider: DataP
     for o in orders:
         if o["action"] == "COMPRAR":
             final[o["ticker"]] = final.get(o["ticker"], 0) + o["usd"]
-    return {"orders": orders, "final": final, "cash_after": capital - sum(final.values()),
+    return {"orders": orders, "final": final, "cash_after": cash - sum(o["usd"] for o in orders if o["action"] == "COMPRAR"),
             "max_weight": max(final.values()) / capital if final else 0}
 
 

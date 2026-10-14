@@ -22,7 +22,7 @@ def _row(a: dict, hist_chart: bool = False) -> dict:
     return r
 
 
-def export_dashboard(now, universe, screened, deep, hold, reb, data, brief_md, prov, docs_dir="docs"):
+def export_dashboard(now, universe, screened, deep, hold, reb, data, brief_md, prov, docs_dir="docs", cash=None):
     os.makedirs(os.path.join(docs_dir, "data"), exist_ok=True)
     ranking = [_row(a) for _, _, a in deep]
     by = {a["ticker"]: a for _, _, a in deep}
@@ -35,7 +35,7 @@ def export_dashboard(now, universe, screened, deep, hold, reb, data, brief_md, p
             positions.append({**_row(a, True), "value": v, "weight": v / contest.CAPITAL})
         except Exception as e:  # noqa: BLE001
             positions.append({"ticker": t, "value": v, "weight": v / contest.CAPITAL, "error": str(e)})
-    out = {"updated": now.isoformat(timespec="minutes"), "capital": contest.CAPITAL, "max_weight": contest.MAX_WEIGHT,
+    out = {"updated": now.isoformat(timespec="minutes"), "capital": contest.CAPITAL, "max_weight": contest.MAX_WEIGHT, "cash": cash,
            "universe": len(universe), "screened": len(screened), "ranking": ranking, "positions": positions,
            "orders": (reb or {}).get("orders", []), "final": (reb or {}).get("final", {}), "cash_after": (reb or {}).get("cash_after"),
            "market": (data or {}).get("snapshot", []), "events": (data or {}).get("infos", []),

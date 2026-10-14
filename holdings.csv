@@ -1,8 +1,9 @@
-# ticker,usd  (blotter 13-oct-2026). OTHER = posición(es) no visibles en la captura: ajusta o reemplaza.
-1138 HK,81137
-ASML NA,47316
-ANET US,94766
-2899 HK,204320
-DVN US,204151
-MRX US,170000
-OTHER,189551
+# ticker,usd  -- Terminal TMSG 14-oct-2026 12:48 (Rgo bruto por posición). Actualiza tras cada operación.
+# CASH = "Efectivo disponible" de la Terminal (no es una posición).
+1138 HK,83282
+ASML NA,47728
+ANET US,90458
+2899 HK,199104
+DVN US,204575
+MRX US,165802
+CASH,193134
