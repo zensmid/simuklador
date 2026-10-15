@@ -1,63 +1,62 @@
-# Scan 2026-10-15 01:56 UTC
-Universo: 2842 | con datos y liquidez: 1055 | análisis completo: 40
+# Scan 2026-10-15 17:04 UTC
+Universo: 2842 | con datos y liquidez: 1038 | análisis completo: 40
 
 | # | Ticker | Rec | Score | Téc | Fund | Noticias | 3M | 1A |
 |---|---|---|---|---|---|---|---|---|
 | 1 | TAPG IJ | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +38% | +44% |
-| 2 | GMEXICOB MM | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +22% | +68% |
-| 3 | 4021 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +7% | +66% |
-| 4 | EQNR NO | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +25% | +82% |
-| 5 | 7701 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +3% | +16% |
-| 6 | MEDC IJ | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +24% | +21% |
-| 7 | 6501 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +21% | +45% |
-| 8 | 011200 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +19% | +17% |
-| 9 | 6857 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +19% | +142% |
-| 10 | LLY US | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +4% | +48% |
-| 11 | 7272 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +48% | +70% |
-| 12 | 7752 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +20% | +39% |
-| 13 | 030190 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +22% | +29% |
-| 14 | TECHM IN | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +5% | +13% |
-| 15 | 8136 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +14% | -5% |
-| 16 | 4704 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +14% | -9% |
-| 17 | 6098 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +48% | +128% |
-| 18 | 2269 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +16% | +45% |
-| 19 | 6505 TT | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +55% | +187% |
-| 20 | 7550 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +38% | +26% |
-| 21 | 3088 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +6% | -14% |
-| 22 | 3092 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +5% | -9% |
-| 23 | 2885 TT | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +14% | +122% |
-| 24 | BHEL IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +11% | +90% |
-| 25 | TRENT IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +4% | -37% |
+| 2 | 6532 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +32% | +5% |
+| 3 | EQNR NO | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +21% | +90% |
+| 4 | 5805 JP | COMPRA FUERTE | +0.64 | +0.80 | +0.80 | +0.00 | +30% | +91% |
+| 5 | 322000 KS | COMPRA FUERTE | +0.62 | +0.80 | +0.75 | +0.00 | +30% | +174% |
+| 6 | GFNORTEO MM | COMPRA FUERTE | +0.62 | +0.80 | +0.75 | +0.00 | +9% | +23% |
+| 7 | MEDC IJ | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +24% | +21% |
+| 8 | 4206 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +19% | +21% |
+| 9 | 3968 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +16% | +21% |
+| 10 | 3653 TT | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +132% | +223% |
+| 11 | 8012 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +8% | +57% |
+| 12 | 011200 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +21% | +14% |
+| 13 | 6857 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +38% | +167% |
+| 14 | 2891 TT | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +10% | +74% |
+| 15 | 6645 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +9% | +63% |
+| 16 | 030190 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +25% | +29% |
+| 17 | 033780 KS | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +4% | +41% |
+| 18 | 8136 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +14% | -7% |
+| 19 | TECHM IN | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +9% | +17% |
+| 20 | 3092 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +2% | -11% |
+| 21 | 2885 TT | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +16% | +123% |
+| 22 | TRENT IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +3% | -36% |
+| 23 | 4716 JP | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +14% | -27% |
+| 24 | BHEL IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +0% | +82% |
+| 25 | 2413 JP | COMPRA | +0.43 | +0.80 | +0.20 | +0.00 | +2% | -18% |
 
 ## Rebalanceo sugerido
 ```
 ÓRDENES (monto en USD):
-  RECORTAR 2899 HK     $       4,104   19.9% -> 19.5%
-  RECORTAR DVN US      $       9,370   20.4% -> 19.5%
-  COMPRAR  TAPG IJ     $       2,215   COMPRA FUERTE, score +0.71
-  COMPRAR  GMEXICOB MM $       2,888   COMPRA FUERTE, score +0.71
-  COMPRAR  EQNR NO     $       2,952   COMPRA FUERTE, score +0.65
-  COMPRAR  4021 JP     $       3,341   COMPRA FUERTE, score +0.65
-  COMPRAR  MEDC IJ     $       2,082   COMPRA FUERTE, score +0.59
+  RECORTAR DVN US      $       5,467   20.0% -> 19.5%
+  COMPRAR  TAPG IJ     $         950   COMPRA FUERTE, score +0.71
+  COMPRAR  EQNR NO     $       1,268   COMPRA FUERTE, score +0.65
+  COMPRAR  6532 JP     $         889   COMPRA FUERTE, score +0.65
+  COMPRAR  5805 JP     $         731   COMPRA FUERTE, score +0.64
+  COMPRAR  GFNORTEO MM $       1,762   COMPRA FUERTE, score +0.62
 
 CARTERA RESULTANTE:
-  2899 HK     $     195,000   19.5%
   DVN US      $     195,000   19.5%
-  MRX US      $     165,244   16.5%
-  AAPL US     $     100,000   10.0%
-  ANET US     $      90,451    9.0%
-  1138 HK     $      83,282    8.3%
-  ASML NA     $      47,719    4.8%
-  2914 JP     $      25,000    2.5%
-  322000 KS   $      17,040    1.7%
-  3402 JP     $      17,030    1.7%
-  3774 JP     $      17,030    1.7%
-  857 HK      $      17,030    1.7%
-  4021 JP     $       3,341    0.3%
-  EQNR NO     $       2,952    0.3%
-  GMEXICOB MM $       2,888    0.3%
-  TAPG IJ     $       2,215    0.2%
-  MEDC IJ     $       2,082    0.2%
+  2899 HK     $     194,181   19.4%
+  MRX US      $     166,134   16.6%
+  AAPL US     $     100,424   10.0%
+  ANET US     $      83,614    8.4%
+  1138 HK     $      70,274    7.0%
+  ASML NA     $      45,222    4.5%
+  2914 JP     $      25,292    2.5%
+  3774 JP     $      17,205    1.7%
+  3402 JP     $      16,754    1.7%
+  857 HK      $      16,603    1.7%
+  322000 KS   $      15,377    1.5%
+  GFNORTEO MM $       1,762    0.2%
+  EQNR NO     $       1,268    0.1%
+  TAPG IJ     $         950    0.1%
+  6532 JP     $         889    0.1%
+  5805 JP     $         731    0.1%
 
 Efectivo sin invertir: $0 | Peso máx 19.5% (límite 20%)
 ```
