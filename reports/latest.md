@@ -1,43 +1,43 @@
-# Scan 2026-10-15 23:42 UTC
-Universo: 2842 | con datos y liquidez: 902 | análisis completo: 40
+# Scan 2026-10-16 01:41 UTC
+Universo: 2842 | con datos y liquidez: 929 | análisis completo: 40
 
 | # | Ticker | Rec | Score | Téc | Fund | Noticias | 3M | 1A |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 281820 KS | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +2% | +169% |
-| 2 | 6532 JP | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +31% | +2% |
-| 3 | 939 HK | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +20% | +45% |
-| 4 | 3968 HK | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +15% | +22% |
-| 5 | MEDC IJ | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +20% | +18% |
-| 6 | 857 HK | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +8% | +50% |
-| 7 | 3076 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +15% | +15% |
-| 8 | 3988 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +21% | +55% |
-| 9 | 2891 TT | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +15% | +77% |
-| 10 | 2503 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +3% | +39% |
-| 11 | 2881 TT | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +24% | +91% |
-| 12 | 8136 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +12% | -7% |
-| 13 | TECHM IN | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +9% | +17% |
-| 14 | 6988 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +14% | +4% |
-| 15 | 9107 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +36% | +67% |
-| 16 | TRENT IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +3% | -36% |
-| 17 | BHEL IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +0% | +82% |
-| 18 | 2801 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +13% | +47% |
-| 19 | 6504 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +8% | +43% |
-| 20 | 1303 TT | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +38% | +698% |
-| 21 | VAR NO | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +28% | +88% |
-| 22 | ULVR LN | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +4% | +0% |
-| 23 | 2004 JP | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +14% | +33% |
-| 24 | 2027 TT | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +19% | +34% |
-| 25 | 2695 JP | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +8% | +2% |
+| 1 | EQNR NO | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +22% | +90% |
+| 2 | 7701 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +6% | +17% |
+| 3 | 5444 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +0% | +43% |
+| 4 | MEDC IJ | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +20% | +18% |
+| 5 | 3968 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +15% | +22% |
+| 6 | LLY US | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +6% | +55% |
+| 7 | 2212 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +17% | +20% |
+| 8 | 2891 TT | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +17% | +78% |
+| 9 | 4704 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +18% | -3% |
+| 10 | TECHM IN | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +9% | +17% |
+| 11 | 5161 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +16% | +26% |
+| 12 | 8136 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +16% | -7% |
+| 13 | 3088 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +6% | -13% |
+| 14 | 2269 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +16% | +45% |
+| 15 | COFORGE IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +27% | +14% |
+| 16 | 4716 JP | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +18% | -24% |
+| 17 | 005180 KS | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +39% | +27% |
+| 18 | BHEL IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +0% | +82% |
+| 19 | TRENT IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +3% | -36% |
+| 20 | 3563 JP | COMPRA | +0.43 | +0.80 | +0.20 | +0.00 | +16% | +49% |
+| 21 | 2413 JP | COMPRA | +0.43 | +0.80 | +0.20 | +0.00 | +2% | -15% |
+| 22 | 2267 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +2% | +26% |
+| 23 | 4528 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +2% | +47% |
+| 24 | 2801 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +12% | +51% |
+| 25 | 2897 JP | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +8% | +14% |
 
 ## Rebalanceo sugerido
 ```
 ÓRDENES (monto en USD):
   RECORTAR DVN US      $       5,467   20.0% -> 19.5%
-  COMPRAR  939 HK      $       1,354   COMPRA FUERTE, score +0.71
-  COMPRAR  6532 JP     $         553   COMPRA FUERTE, score +0.71
-  COMPRAR  3988 HK     $       1,461   COMPRA FUERTE, score +0.71
-  COMPRAR  3968 HK     $       1,405   COMPRA FUERTE, score +0.71
-  COMPRAR  TECHM IN    $         828   COMPRA, score +0.36
+  COMPRAR  EQNR NO     $         945   COMPRA FUERTE, score +0.65
+  COMPRAR  MEDC IJ     $         665   COMPRA FUERTE, score +0.59
+  COMPRAR  7701 JP     $       1,229   COMPRA FUERTE, score +0.59
+  COMPRAR  5444 JP     $       1,149   COMPRA FUERTE, score +0.59
+  COMPRAR  3968 HK     $       1,612   COMPRA FUERTE, score +0.57
 
 CARTERA RESULTANTE:
   DVN US      $     195,000   19.5%
@@ -52,11 +52,11 @@ CARTERA RESULTANTE:
   3402 JP     $      16,754    1.7%
   857 HK      $      16,603    1.7%
   322000 KS   $      15,377    1.5%
-  3988 HK     $       1,461    0.1%
-  3968 HK     $       1,405    0.1%
-  939 HK      $       1,354    0.1%
-  TECHM IN    $         828    0.1%
-  6532 JP     $         553    0.1%
+  3968 HK     $       1,612    0.2%
+  7701 JP     $       1,229    0.1%
+  5444 JP     $       1,149    0.1%
+  EQNR NO     $         945    0.1%
+  MEDC IJ     $         665    0.1%
 
 Efectivo sin invertir: $0 | Peso máx 19.5% (límite 20%)
 ```
