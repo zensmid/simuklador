@@ -1,43 +1,43 @@
-# Scan 2026-10-20 23:54 UTC
-Universo: 2842 | con datos y liquidez: 1003 | análisis completo: 40
+# Scan 2026-10-21 02:04 UTC
+Universo: 2842 | con datos y liquidez: 941 | análisis completo: 40
 
 | # | Ticker | Rec | Score | Téc | Fund | Noticias | 3M | 1A |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 66 HK | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +0% | +27% |
-| 2 | GMEXICOB MM | COMPRA FUERTE | +0.71 | +0.80 | +1.00 | +0.00 | +13% | +67% |
-| 3 | 7269 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +3% | -4% |
-| 4 | 5020 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +11% | +58% |
-| 5 | EQNR NO | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +16% | +93% |
-| 6 | 1288 HK | COMPRA FUERTE | +0.64 | +0.80 | +0.80 | +0.00 | +19% | +39% |
-| 7 | 9009 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +10% | +3% |
-| 8 | 7476 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +8% | +8% |
-| 9 | 3968 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +11% | +19% |
-| 10 | 2880 TT | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +26% | +70% |
-| 11 | 1398 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +9% | +43% |
-| 12 | 3659 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +46% | +0% |
-| 13 | 030190 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +24% | +27% |
-| 14 | 9104 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +34% | +74% |
-| 15 | 7752 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +18% | +40% |
-| 16 | 8130 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +9% | +10% |
-| 17 | 9107 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +29% | +70% |
-| 18 | 4689 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +19% | +17% |
-| 19 | 7550 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +37% | +25% |
-| 20 | 8060 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +13% | +38% |
-| 21 | 2885 TT | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +20% | +120% |
-| 22 | 4716 JP | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +20% | -24% |
-| 23 | 026960 KS | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +15% | +9% |
-| 24 | 2897 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +7% | +15% |
-| 25 | 011200 KS | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +17% | +21% |
+| 1 | EQNR NO | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +16% | +93% |
+| 2 | PTT TB | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +9% | +36% |
+| 3 | 7701 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +4% | +12% |
+| 4 | 6501 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +23% | +33% |
+| 5 | 3064 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +17% | +8% |
+| 6 | 7752 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +21% | +38% |
+| 7 | LLY US | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +11% | +61% |
+| 8 | 6869 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +29% | +6% |
+| 9 | 2212 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +17% | +25% |
+| 10 | 011200 KS | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +16% | +17% |
+| 11 | 7821 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +9% | +5% |
+| 12 | 2377 TT | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +16% | +48% |
+| 13 | 2884 TT | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +31% | +55% |
+| 14 | 4005 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +12% | +28% |
+| 15 | 3088 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +6% | -10% |
+| 16 | 2885 TT | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +20% | +123% |
+| 17 | 3092 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +4% | -9% |
+| 18 | CB US | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +5% | +35% |
+| 19 | 6448 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +26% | +95% |
+| 20 | 2269 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +19% | +49% |
+| 21 | COFORGE IN | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +28% | +13% |
+| 22 | 3563 JP | COMPRA | +0.43 | +0.80 | +0.20 | +0.00 | +8% | +65% |
+| 23 | REM SJ | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +9% | +20% |
+| 24 | MFC CN | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +6% | +46% |
+| 25 | MDT US | COMPRA | +0.36 | +0.80 | +0.00 | +0.00 | +17% | +2% |
 
 ## Rebalanceo sugerido
 ```
 ÓRDENES (monto en USD):
   RECORTAR DVN US      $       5,467   20.0% -> 19.5%
-  COMPRAR  GMEXICOB MM $         964   COMPRA FUERTE, score +0.71
-  COMPRAR  EQNR NO     $         984   COMPRA FUERTE, score +0.65
-  COMPRAR  7269 JP     $       1,081   COMPRA FUERTE, score +0.65
-  COMPRAR  5020 JP     $       1,096   COMPRA FUERTE, score +0.65
-  COMPRAR  1288 HK     $       1,475   COMPRA FUERTE, score +0.64
+  COMPRAR  EQNR NO     $         954   COMPRA FUERTE, score +0.65
+  COMPRAR  PTT TB      $       1,735   COMPRA FUERTE, score +0.59
+  COMPRAR  7701 JP     $       1,243   COMPRA FUERTE, score +0.59
+  COMPRAR  6501 JP     $         832   COMPRA FUERTE, score +0.57
+  COMPRAR  3064 JP     $         835   COMPRA FUERTE, score +0.57
 
 CARTERA RESULTANTE:
   DVN US      $     195,000   19.5%
@@ -52,11 +52,11 @@ CARTERA RESULTANTE:
   3402 JP     $      16,754    1.7%
   857 HK      $      16,603    1.7%
   322000 KS   $      15,377    1.5%
-  1288 HK     $       1,475    0.1%
-  5020 JP     $       1,096    0.1%
-  7269 JP     $       1,081    0.1%
-  EQNR NO     $         984    0.1%
-  GMEXICOB MM $         964    0.1%
+  PTT TB      $       1,735    0.2%
+  7701 JP     $       1,243    0.1%
+  EQNR NO     $         954    0.1%
+  3064 JP     $         835    0.1%
+  6501 JP     $         832    0.1%
 
 Efectivo sin invertir: $0 | Peso máx 19.5% (límite 20%)
 ```
