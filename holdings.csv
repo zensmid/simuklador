@@ -1,15 +1,17 @@
-# ticker,usd  -- Terminal TMSG 15-oct-2026 08:51 (Rgo bruto). Todas las órdenes ejecutadas; efectivo 133.
-# CASH = Efectivo disponible de la Terminal (no es una posición).
-322000 KS,15377
-3402 JP,16754
-3774 JP,17205
-857 HK,16603
-2914 JP,25292
-AAPL US,100424
-MRX US,166134
-1138 HK,70274
-ASML NA,45222
-ANET US,83614
-2899 HK,194181
-DVN US,200467
-CASH,133
+# ticker,usd  -- Terminal TMSG (cambios hasta 27-oct-2026). Rgo bruto total 592,277. Actualiza tras cada operación.
+# CASH = estimado: 1,000,000 - P&L(60,885) - exposición bruta(592,277). Verificar "Efectivo disponible" en la Terminal.
+DVN US,206904
+AAPL US,101664
+TBBB US,39426
+MSFT US,29352
+MELI UW,28013
+2914 JP,24990
+MP US,20896
+LLY US,20529
+V US,20487
+MA US,20336
+WMT US,20210
+TSLA US,19865
+1919 HK,19824
+COST US,19781
+CASH,346838
