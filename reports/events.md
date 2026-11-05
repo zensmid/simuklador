@@ -1,71 +1,71 @@
-# Contexto 2026-11-05 03:46 UTC
+# Contexto 2026-11-05 19:57 UTC
 
 ## Mercado
 | Mercado | Último | 1D | 1M |
 |---|---|---|---|
-| S&P 500 | 7,688.62 | +1.58% | -1.7% |
-| Nasdaq | 25,736.51 | +1.44% | -6.8% |
-| VIX | 16.61 | -20.26% | +10.7% |
-| 10Y UST | 4.89 | -1.17% | -7.1% |
-| Dólar (DXY) | 101.27 | -0.59% | -0.5% |
-| Petróleo WTI | 86.80 | -9.67% | -3.0% |
-| Oro | 4,148.40 | +5.28% | -0.9% |
-| Cobre | 6.44 | +1.03% | -2.3% |
-| Bitcoin | 80,505.11 | +4.09% | -1.3% |
-| USD/JPY | 157.88 | -0.37% | -0.3% |
-| USD/KRW | 1,343.18 | +0.02% | +0.3% |
-| USD/INR | 94.49 | -0.27% | -1.9% |
-| Nikkei | 61,804.11 | -0.62% | -11.6% |
-| Kospi | 5,457.23 | -3.99% | -21.4% |
-| Hang Seng | 24,724.55 | +3.37% | +1.8% |
-| Nifty | 24,339.10 | +1.58% | +6.9% |
-| Taiwan | 42,199.06 | -1.75% | -12.9% |
-| Jakarta | 5,039.88 | +2.44% | -18.0% |
-| MSCI EM (EEM) | 61.62 | +0.85% | -9.7% |
+| S&P 500 | 7,399.70 | -3.76% | -5.2% |
+| Nasdaq | 24,508.30 | -4.77% | -11.0% |
+| VIX | 24.03 | +44.67% | +59.4% |
+| 10Y UST | 4.84 | -1.12% | -8.3% |
+| Dólar (DXY) | 101.54 | +0.03% | -0.7% |
+| Petróleo WTI | 90.54 | +2.75% | +2.6% |
+| Oro | 4,126.30 | +1.31% | -0.3% |
+| Cobre | 6.26 | -2.19% | -5.1% |
+| Bitcoin | 76,163.92 | -5.27% | -7.3% |
+| USD/JPY | 157.83 | -0.40% | -0.3% |
+| USD/KRW | 1,356.24 | +0.99% | +1.2% |
+| USD/INR | 94.46 | -0.30% | -2.0% |
+| Nikkei | 62,188.63 | -1.42% | -9.0% |
+| Kospi | 5,683.80 | +0.62% | -18.8% |
+| Hang Seng | 23,919.50 | +1.67% | -0.5% |
+| Nifty | 23,960.60 | +0.63% | +6.2% |
+| Taiwan | 42,948.91 | -0.83% | -11.2% |
+| Jakarta | 4,919.77 | +0.32% | -20.6% |
+| MSCI EM (EEM) | 58.52 | -5.03% | -13.1% |
 
 ## Resultados y consenso
 | Ticker | Resultados | Días | EPS est. | Últimas reacciones (1d) | Obj. analistas |
 |---|---|---|---|---|---|
-| DVN US | 2026-11-05 | 0 | 1.31 | -5.6%, -9.1%, -0.5%, -0.4% | 61.69 (+40%) |
-| MP US | 2026-11-05 | 0 | -0.01 | +6.7%, -7.2%, +0.4%, +6.7% | 70.94 (+98%) |
-| 033780 KS | 2026-11-05 | 0 | 3744.00 | +1.6%, -5.7%, -3.5%, +1.0% | 233687.50 (+19%) |
-| 7458 JP | 2026-11-09 | 4 | 30.08 | +6.3%, +0.7%, -2.1%, +5.9% | 1800.00 (-0%) |
-| WMT US | 2026-11-19 | 14 | 0.64 | -9.1%, -8.1%, -2.9%, +4.7% | 127.47 (-1%) |
-| CM CN | 2026-12-03 | 28 | 2.55 | -2.9%, -5.7%, -0.0%, +4.0% | 170.50 (+2%) |
-| COST US | 2026-12-10 | 35 | 4.91 | +2.0%, -4.7%, -0.9%, +1.2% | 1067.59 (+2%) |
-| V US | 2027-01-26 | 82 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | 443.44 (+2%) |
-| MSFT US | 2027-01-27 | 83 | 4.86 | -0.2%, +14.7%, -5.0%, -9.8% | 633.13 (+14%) |
-| TSLA US | 2027-01-27 | 83 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | 413.10 (+7%) |
-| AAPL US | 2027-01-28 | 84 | 2.90 | -3.7%, -8.7%, +3.7%, +1.2% | 333.28 (-5%) |
-| MA US | 2027-01-28 | 84 | 5.12 | +4.5%, +1.7%, -5.7%, +3.3% | 707.79 (+5%) |
-| 7419 JP | 2027-01-28 | 84 | n/d | n/d | n/d |
-| LLY US | 2027-02-03 | 90 | 11.12 | +10.0%, +6.8%, +13.2%, +1.7% | 1442.09 (+2%) |
-| 2914 JP | 2027-02-10 | 97 | 22.13 | -1.2%, +5.2%, +3.8%, +0.7% | 7756.93 (+1%) |
-| TBBB US | 2027-03-10 | 125 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | 61.25 (-6%) |
-| 1919 HK | 2027-03-18 | 133 | n/d | n/d | 16.87 (-5%) |
-| 300 HK | 2027-04-01 | 147 | 0.36 | +2.8%, +2.8% | 114.79 (+16%) |
-| MELI UW | n/d | - | n/d | -3.1%, -11.3%, -5.2%, +3.1% | 2271.93 (+31%) |
-| JYOTICNC IN | n/d | - | n/d | +9.9%, -7.4%, -10.9%, +0.2% | 1057.75 (+1%) |
-| 8058 JP | n/d | - | n/d | +10.3%, -0.8%, +8.2%, +8.9% | 5281.60 (+0%) |
-| 138040 KS | n/d | - | n/d | -1.2%, -3.5%, -0.3%, -8.6% | 138400.00 (+2%) |
-| ACUTAAS IN | n/d | - | n/d | +10.8%, -2.6%, +7.0%, +11.9% | 3649.67 (-5%) |
-| 002840 KS | n/d | - | n/d | n/d | n/d |
+| 9101 JP | 2026-11-05 | -1 | 396.60 | -1.5%, -2.8%, -1.4%, -0.6% | 6791.82 (-3%) |
+| DVN US | 2026-11-05 | 0 | 1.31 | -5.6%, -9.1%, -0.5%, -0.4% | 61.69 (+42%) |
+| MP US | 2026-11-05 | 0 | -0.01 | +6.7%, -7.2%, +0.4%, +6.7% | 70.94 (+110%) |
+| 9104 JP | 2026-11-09 | 3 | 209.39 | +4.0%, -0.8%, +1.5%, -3.9% | 7883.64 (+13%) |
+| 6869 JP | 2026-11-10 | 4 | 15.05 | +20.7%, -0.5%, -15.1%, -5.7% | 2139.29 (+6%) |
+| 3197 JP | 2026-11-12 | 6 | 29.01 | +1.8%, -6.1%, +5.5%, +9.8% | 3220.00 (-15%) |
+| WMT US | 2026-11-19 | 13 | 0.64 | -9.1%, -8.1%, -2.9%, +4.7% | 127.47 (-1%) |
+| COST US | 2026-12-10 | 35 | 4.91 | +2.0%, -4.7%, -0.9%, +1.2% | 1067.59 (+0%) |
+| PNB IN | 2027-01-19 | 74 | 3.67 | +6.0%, +6.0%, +1.4%, -5.0% | 129.94 (+3%) |
+| MCX IN | 2027-01-21 | 76 | 17.10 | +2.0%, -1.6%, +4.8%, +4.5% | 3533.44 (+5%) |
+| V US | 2027-01-26 | 82 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | 443.44 (+4%) |
+| MSFT US | 2027-01-27 | 83 | 4.86 | -0.2%, +14.7%, -5.0%, -9.8% | 633.13 (+18%) |
+| MA US | 2027-01-28 | 83 | 5.12 | +4.5%, +1.7%, -5.7%, +3.3% | 707.79 (+8%) |
+| TSLA US | 2027-01-27 | 83 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | 413.10 (+21%) |
+| AAPL US | 2027-01-28 | 84 | 2.90 | -3.7%, -8.7%, +3.7%, +1.2% | 333.28 (-4%) |
+| LLY US | 2027-02-03 | 89 | 11.12 | +10.0%, +6.8%, +13.2%, +1.7% | 1442.09 (+5%) |
+| 4503 JP | 2027-02-03 | 89 | 42.44 | +nan%, +5.5%, -6.6%, +8.9% | 2536.43 (-5%) |
+| 2914 JP | 2027-02-10 | 96 | 22.13 | -1.2%, +5.2%, +3.8%, +0.7% | 7756.93 (-0%) |
+| MELI UW | 2027-02-25 | 112 | 11.16 | -9.5%, -3.1%, -11.3%, -5.2% | 2271.93 (+51%) |
+| TBBB US | 2027-03-10 | 125 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | 60.56 (-6%) |
+| 1919 HK | 2027-03-18 | 132 | n/d | n/d | 16.87 (-5%) |
+| 857 HK | 2027-03-25 | 139 | 0.26 | +1.8%, +0.1%, +3.1%, -2.0% | 12.00 (+16%) |
+| 939 HK | 2027-03-29 | 143 | 0.33 | +0.1%, +4.0%, -1.2%, +2.9% | 11.65 (+11%) |
+| 1088 HK | 2027-03-29 | 143 | 0.84 | +4.5%, +1.4%, -0.3%, -3.5% | 47.39 (+12%) |
 
 ## Titulares recientes
 ### DVN US
+- [+0] Are Investors Undervaluing Devon Energy (DVN) Right Now?
+- [+0] Brokers Suggest Investing in Devon Energy (DVN): Read This Before Placing a Bet
 - [+0] Comstock Resources (CRK) Lags Q3 Earnings Estimates
 - [+0] EOG Resources Earnings Ahead: What Past Reactions Say About The Stock
 - [+0] How Could Devon Energy (DVN) Reshape Its Future With A $4.2 Billion Deal?
 - [+0] ConocoPhillips and Devon Energy Earnings Previews: What Shareholders Should Watch
-- [+0] 6 Big Funds Bought Devon Energy. Is It a Buy Before Earnings?
-- [+0] What Just Happened To Devon Energy Stock?
 ### AAPL US
-- [+1] Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck
-- [+1] Post-election gridlock might be a bullish sign for Apple,
-- [+0] Why the Democrat blue wave could be a good thing for Apple stock
-- [+1] Post-election gridlock might be a bullish sign for Apple, memory prices
-- [+1] Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally
-- [+0] The Dow’s Big Winners Today
+- [+0] SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.
+- [+0] Apple Stocks Move Lower as Investors Revisit Earnings Quality
+- [+0] Apple Makes Major $7 Billion Funding Move
+- [+0] Why GM and Hilton Are Moving to the Nasdaq From NYSE
+- [+0] Sector Update: Tech Stocks Tumble Thursday Afternoon
+- [+0] A 'Fugazi' Day in the Markets
 ### TBBB US
 - [+0] BBB Foods Same-Store Sales Jump 20.5%: Rapid Earnings Reaction
 - [+0] What BBB Foods (TBBB) Said on Its Q3 Earnings Call
@@ -74,19 +74,19 @@
 - [+0] BBB Foods (TBBB) Q3 2026 Earnings Call Transcript
 - [+0] BBB Foods Inc. Q3 2026 Earnings Call Summary
 ### MSFT US
-- [+1] Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck
-- [+1] Texas data centers face uncertain future after Hinojosa wins governor’s race
-- [+1] Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally
-- [+0] Arista Networks stock gets fresh backing from Jim Cramer and Wall Street
-- [+0] What Is Going On With Zoom Stock?
-- [+0] The Dow’s Big Winners Today
+- [+0] Nvidia and Microsoft Get a New Spotlight From Bank of America
+- [+0] The AI Trade Selloff Is Crushing Industrial Stocks. What Caterpillar’s Valuation Tells Us.
+- [+0] Microsoft Stocks Fall 2.59% as Cloud Returns Take Center Stage
+- [+0] Why GM and Hilton Are Moving to the Nasdaq From NYSE
+- [+0] Update: Market Chatter: Microsoft Declines Texas Data Center Contract Extension With Nscale, Tightening Data Center Oversight
+- [+0] Oracle Stock Slides as AI Trade Swoons
 ### MELI UW
-- [+0] MercadoLibre Q3 Earnings Call Highlights
-- [+0] Compared to Estimates, MercadoLibre (MELI) Q3 Earnings: A Look at Key Metrics
-- [+1] MercadoLibre's Growth Slows as Margin Shrinks: Rapid Earnings Reaction
-- [+0] MercadoLibre’s (NASDAQ:MELI) Q3 2026 sales top estimates but stock drops
-- [-1] MercadoLibre (MELI) Misses Q3 Earnings Estimates
-- [-1] MercadoLibre falls on earnings miss, margin pressure
+- [+0] MercadoLibre earnings analysis: questions answered and next catalysts
+- [+0] 52% Upside for MercadoLibre? Scotiabank Thinks So, and Here’s How
+- [+0] What Is Behind The Move In Coupang Stock?
+- [+0] MercadoLibre Pays Up to Win Shoppers’ Loyalty
+- [+0] MercadoLibre (MELI) Q3 2026 Earnings Call Transcript
+- [+0] MercadoLibre Revenue Rises 45% as Margins Fall
 ### 2914 JP
 - [+1] JAPAN TOB (JAPAY) Upgraded to Strong Buy: Here's Why
 - [+0] Best Momentum Stocks to Buy for October 30th
@@ -95,47 +95,47 @@
 - [+1] Japan Tobacco raises FY earnings outlook as heated tobacco sales climb
 - [+0] Are You Looking for a Top Momentum Pick? Why JAPAN TOB (JAPAY) is a Great Choice
 ### MP US
+- [+0] Critical Metals And 2 More Rare Earth Stocks To Watch
+- [+0] Why Rare Earth Stock MP Materials Dropped 11.9% in October
 - [+0] Ivanhoe Mines Ltd. (IVPAF) Q3 Earnings and Revenues Lag Estimates
 - [+0] Should You Buy, Sell or Hold MP Stock Before Q3 Earnings Release?
 - [+0] 4 Critical Minerals Stocks That Could Benefit as the U.S. Reduces Reliance on China
 - [+0] MP Materials Has Collapsed 60% From Its Highs. Here's Why I'm Not Buying (Yet).
-- [+0] 2 Industrial Stocks That Win Whether the AI Bubble Pops or Not
-- [-1] Critical Metals Sinks 11% as European Lithium Deal Nears New Share Issuance; USA Rare Earth Tumbles 10%, MP Materials Falls 6%
 ### LLY US
-- [+0] Novo Nordisk Stock Jumps After Outlook Improves
-- [+1] Eli Lilly Stocks Rise 2.32% While Revenue Guidance Faces a Quality-of-Growth Test
-- [+0] Novo Nordisk Stock Jumps 6% as Wegovy Hits a Stunning 80% Milestone
-- [+0] Novo’s Comeback Gets a Pill-Shaped Boost as Wegovy Starts to Bite Back
-- [-1] Novo Nordisk Stock Shrugs Off Eli Lilly Threat as Weight-Loss Pill Shines in Earnings
-- [-1] Is Eli Lilly Stock Increasing Your Market Risk?
+- [+0] Eli Lilly gets BofA target hike as non-obesity pipeline takes focus
+- [+1] 4 Healthcare ETFs to Tap Into Eli Lilly's Post-Q3 Earnings Rally
+- [+1] 2 Growth Stocks to Buy in November Without Any Hesitation
+- [+0] Big pharma-backed T-Therapeutics snags $133m to bring TCEs to clinic
+- [+0] Eli Lilly and Company’s (LLY) GLP-1 Franchise Faces Growing Price Competition
+- [-1] Prediction: The Weight-Loss Drug Boom Could Be Just the Beginning for Lilly
 ### V US
-- [+1] Grayscale and BlackRock Say Democratic Midterm Sweep Won’t Slow Crypto Growth
-- [+1] BLS International Services Ltd (BOM:540073) (Q2 2027) Earnings Call Highlights: Record Revenue ...
-- [+0] Why Bill Ackman Says He Feels Like “Markets Are Broken” Casinos
-- [+1] FIS Q3 Earnings Meet Estimates, Revenues Beat on Banking Strength
-- [+0] Visa Inc. (V) Is Benefiting From a Powerful Payments Trend: What’s Next for the Stock?
-- [+1] Can Affirm Beat Q1 Earnings on Higher GMV and Active Consumers?
+- [+1] Visa (V) Reports Record Earnings And Dividend Hike, Is The Stock Overvalued?
+- [+1] GPN Q3 Earnings Beat Estimates on Genius Growth, Margins Rise
+- [+0] Will a ‘blue wave’ push the CCCA?
+- [+0] Adjusted for Inflation, Economists From Visa Call for a Holiday Sales Gain of 1.1%
+- [+0] Visa's Solid Q4 Masks Rising Incentives: Is V Still Worth Buying?
+- [+1] Visa Just Raised Its Dividend 16%. Is It a Better Buy Than Mastercard?
 ### MA US
-- [+1] Grayscale and BlackRock Say Democratic Midterm Sweep Won’t Slow Crypto Growth
-- [+0] Fiserv (FISV) Adds Raj Seshadri to Board in Payments and Data Push
-- [+0] Why Bill Ackman Says He Feels Like “Markets Are Broken” Casinos
-- [+1] FIS Q3 Earnings Meet Estimates, Revenues Beat on Banking Strength
-- [+0] Mastercard Incorporated (MA) Is Riding the Global Shift Toward Digital Payments: Here’s Why It Matters
-- [+0] Mastercard Is “One of the Greatest Businesses in the World,” Says Bill Ackman. Do the Estimates Agree?
+- [+1] GPN Q3 Earnings Beat Estimates on Genius Growth, Margins Rise
+- [+0] Will a ‘blue wave’ push the CCCA?
+- [+0] Mastercard Stock Rose 22% in a Month. Here’s What Its Price Now Assumes
+- [+0] Visa's Solid Q4 Masks Rising Incentives: Is V Still Worth Buying?
+- [+1] Visa Just Raised Its Dividend 16%. Is It a Better Buy Than Mastercard?
+- [+0] Visa sees US holiday retail sales growing 4.5%, fastest pace since 2021
 ### WMT US
-- [+0] What Is Walmart (WMT) Betting On With Its New AI Shopping Agent?
-- [+1] Stock Market Today, Nov. 4: Amazon Jumps 6% From New Perspective on AWS Growth and AI Strategy Following Election Results
-- [+0] Walmart (WMT) Stock Is Down 3%. Here's Why I'd Buy in November and Hold for a Decade.
-- [+1] If a Stock Market Crash Comes in November, You'll Rest Easy Owning This 50-Year Dividend King
-- [+0] From Data Centers, to Iran War, to Immigration: How the Blue Wave Can Boost Consumer Stocks
-- [+0] Dow Soars 1,200 Points, S&P 500 and Nasdaq Jump 2% as Wall Street Celebrates Midterm Results
+- [+0] Amazon switches to Uber Eats for restaurant delivery perks
+- [+0] What Is Behind The Move In Coupang Stock?
+- [+0] Grubhub parent Wonder files confidentially to go public in the US
+- [+0] Hilton CEO: Nasdaq a 'better home' for the hospitality company
+- [+0] Should Investors Bet on SYM Stock Post the Walmart Deal Expansion?
+- [+1] Zipline raises $1.5 billion to expand drone delivery
 ### TSLA US
-- [+0] SpaceX, Tesla stocks sink as analyst warns Democrats' victory will create 'major hurdles' for AI build-out
-- [+0] SpaceX and Tesla 'need to find the path forward with Texas' on the back of midterm 'Blue Wave'
-- [+0] How Tesla and SpaceX stocks are reacting to Democrats winning Congress
-- [-1] Trump to Pardon Elon Musk Soon? Crypto Punters Bet as Ross Gerber Calls GOP Midterm Loss 'Worst Possible Outcome' for SpaceX CEO
-- [+0] Tesla Registrations Explode Across Europe as Iran War Sends Fuel Prices Soaring — But BYD and Chinese EV Rivals Are Gaining Fast
-- [+0] SpaceX, Tesla Stocks Fall After Elon Musk’s Election Bet Flounders
+- [+1] SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out
+- [+0] SpaceX and Tesla stocks extend their slide as chip stocks drop: AlphaCheck
+- [+0] SpaceX Stock Is Still Falling. It Trades At Apple’s Valuation.
+- [+0] Anthropic's IPO plans run up against a battered Wall Street
+- [+0] If You Invested $1,000 in Tesla at Its 2010 IPO, Here’s What You’d Have Today
+- [+0] Tesla Sinks 12%, SpaceX Down 9% as Midterm Sweep Puts Merger on “A Much Tougher Regulatory Roadmap”
 ### 1919 HK
 - [+0] COSCO SHIPPING Holdings (SEHK:1919) Stock Looks Reasonable After A 246% Five Year Run
 - [+1] OOCL revenue up 45.1% on trans-Pacific surge
@@ -144,43 +144,66 @@
 - [+1] A Look At COSCO SHIPPING Holdings (SEHK:1919) Valuation After Recent Share Price Gains
 - [+0] Has COSCO SHIPPING Holdings (SEHK:1919) Already Reflected Its 42.3% One-Year Share Price Jump
 ### COST US
+- [+0] Costco retains BofA "buy" as October US comps rise 8.1%
+- [+0] Energy-Drinks Are Exploding. Why Is Celsius Stock Fizzling?
+- [+0] Workers Caught In 'The Great 2026 Mass Layoff Wave' Share What Life Looks Like Now. 'Been Playing A Lot Of Video Games, But…'
+- [+0] Amazon Trades at a Fraction of Costco's Valuation. Is the Discount Deserved?
 - [+1] Freshpet Inc (FRPT) Q3 2026 Earnings Call Highlights: Record Gross Margin, Raised Guidance and ...
 - [+0] Costco (COST) Rises Higher Than Market: Key Facts
-- [+0] Is a $65 Costco Membership Worth It for Only Two People? We Did the Math
-- [+0] Uber Technologies, Inc. Q3 2026 Earnings Call Summary
-- [+0] Is Dollar General Stock a Buy at Its Current Valuation?
-- [+0] Costco (COST) Stock Looks Rich Despite Its Healthcare Push
-### 033780 KS
-- [+1] KT&G Corp (XKRX:033780) (Q2 2026) Earnings Call Highlights: Record H1 Results and Raised ...
-- [+1] KT&G Corp (XKRX:033780) Q4 2025 Earnings Call Highlights: Record Revenue Amidst Profit ...
-- [+1] Altria Expands Beyond Nicotine: Is MO's Strategy Worth Watching?
-### 7458 JP
-- [+1] Assessing Daiichikosho’s Valuation As Dividend Policy And Earnings Updates Approach
-### CM CN
-- [+0] Why Canadian Imperial Bank Of Commerce (TSX:CM) Is Getting Attention Today
-- [+0] Why Is CIBC (TSX:CM) Naming Bill Morneau As Its Next Board Chair?
-- [+1] 3 Great Canadian Dividend Stocks To Own In October 2026
-- [+0] CIBC (TSX:CM) Becomes First Major Canadian Bank With A Cloud Native Core Platform
-- [+1] Bank of Canada Raises Rates to 2.50%, With January Hike Expected After December Pause, CIBC Says
-- [+1] Telesat shares rally as CIBC highlights undervalued Lightspeed LEO asset
-### 300 HK
-- [+1] AB Electrolux (OM:ELUX B) Expands North America Partnership, Is It Still 22% Below Fair Value?
-### 7419 JP
-- [+0] Nojima (TSE:7419) Stock Could Be Cheap On A 231% Five Year Run
-### JYOTICNC IN
-- [+1] Timex Group India And 2 Other Indian Growth Stocks
-- [+1] 3 Indian Growth Stocks With At Least 24% Revenue Growth
-- [+1] 3 Indian Growth Stocks With Earnings Growth Up To 37%
-- [+1] Our Pick Of The Best Indian Growth Stocks In October 2026
-- [+1] 3 Indian Growth Stocks With Healthy Balance Sheets Investors May Want To Track
-- [+0] Jyoti CNC Automation Ltd (NSE:JYOTICNC) (Q1 2027) Earnings Call Highlights: Robust Order Book ...
-### 8058 JP
-- [+1] Mitsubishi raises FY profit forecast, announces 1 trillion yen buyback
-- [+0] Abu Dhabi’s XRG to acquire Shell’s stake in Australian LNG project
+### PNB IN
+- [+1] India's PNB eyes faster credit growth in fiscal 2028 after pruning low-yield loans, CEO says
+- [+1] Punjab National Bank (BOM:532461) Q1 2027 Earnings Call Highlights: Strong Growth Amidst ...
+- [+0] India's PNB hikes cybersecurity spend as AI models including Anthropic’s Mythos raise risks
+- [+1] Punjab National Bank (BOM:532461) Q3 2026 Earnings Call Highlights: Strong Growth Amidst Margin ...
+### 4503 JP
+- [+0] Is Astellas Pharma (ALPMY) Outperforming Other Medical Stocks This Year?
+- [+0] Lilly shuffles business structure; Novartis writes off part of Avidity deal
+- [+0] Astellas fortifies immuno-oncology pipeline on $1.3bn Audax licensing deal
+- [+0] Is Elevance Health, Inc. (ELV) Outperforming Other Medical Stocks This Year?
+- [+1] Astellas Pharma Inc's Dividend Analysis
+- [+0] Astellas Pharma (TSE:4503) Stock Could Be 39% Below Fair Value On Cash Flow
+### MCX IN
+- [+1] Multi Commodity Exchange of India Ltd (BOM:534091) (Q2 2027) Earnings Call Highlights: Profit ...
+- [+0] Safer Crypto Access Through HUB24 Stock And Other Regulated Platforms
+- [+1] Multi Commodity Exchange of India Ltd (BOM:534091) (Q1 2027) Earnings Call Highlights: Record ...
+### 857 HK
 - [+0] Blackstone-led group to invest $3.1bn in Mitsubishi’s LNG Canada stake
-- [+1] 3 Alternative Asset Manager Stocks With Fee Based Growth Exposure
-- [+0] Mitsubishi, Hanwha ink agreements to expand foreign investment in US
-- [+0] Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada
-### 138040 KS
-- [+0] XRP News: Ripple and Meritz Securities Bring Custody and Tokenization to Korea’s Capital Markets
-- [+0] Webull Corporation Class A Ordinary Shares Q4 2025 Earnings Call Summary
+- [+1] PetroChina (SEHK:857) Stock Quiet After Q3 Earnings Profit Jump
+- [+1] Petrochina shares rise as Q3 profit surges on strong oil prices
+- [+1] PetroChina Q3 Profit Jumps to $7.78 Billion
+- [+0] Beijing Pushes Domestic Oil Production as Iranian Supply Dries Up
+- [+0] LNG Canada Doubles Capacity as Asia Looks Beyond the Gulf
+### 939 HK
+- [+0] HKMA Pilot Lets Banks Settle Tokenized Deposits Nights and Weekends in Central Bank Money
+- [+0] China big bank shares jump after robust third-quarter earnings
+- [+1] China Construction Bank (SEHK:939) Stock Stays Flat After Strong Q3 Earnings
+- [+0] Are Investors Undervaluing China Construction Bank (CICHY) Right Now?
+- [+0] Should Value Investors Buy China Construction Bank (CICHY) Stock?
+- [+0] What Does China Construction Bank (SEHK:939) Rmb 40 Billion AT1 Issue Change?
+### 6869 JP
+- [+0] Sysmex (TSE:6869) Stock May Be A Bargain On Cash Flow
+- [+1] Medicaroid wins Europe’s CE mark for Hinotori surgical robot
+- [+0] Is It Time To Reassess Sysmex (TSE:6869) After A Prolonged Share Price Slump?
+### 9104 JP
+- [+1] 3 Stocks Linked To Chemical Export Growth Before Infrastructure Fee Upside Is Priced In
+- [+1] New Strong Buy Stocks for October 26th
+- [+0] Best Income Stocks to Buy for October 26th
+- [+0] Here's Why Momentum in Mitsui O.S.K. Lines Ltd. - Unsponsored ADR (MSLOY) Should Keep going
+- [+1] Mitsui O.S.K. Lines Ltd's Dividend Analysis
+- [+0] MOL, Japanese Partners Obtain AiP for Liquid CO2 Carrier
+### 9101 JP
+- [+0] Should Value Investors Buy Nippon Yusen Kabushiki Kaisha (NPNYY) Stock?
+- [+0] Nippon Yusen (TSE:9101) Stock Could Be 33% Overvalued On Raised Earnings Guidance
+- [+0] Are Investors Undervaluing Nippon Yusen Kabushiki Kaisha (NPNYY) Right Now?
+- [+0] Are Transportation Stocks Lagging  International Seaways (INSW) This Year?
+- [+0] Are Investors Undervaluing A.P. Moller-Maersk (AMKBY) Right Now?
+- [+0] Is EuroDry (EDRY) Stock Outpacing Its Transportation Peers This Year?
+### 1088 HK
+- [+1] Will China Shenhua Energy (SEHK:1088) Stock Outpace Slower Q3 Earnings Growth?
+- [+0] Is China Shenhua Energy (SEHK:1088) Priced About Right On Earnings?
+- [+0] Has China Shenhua Energy (SEHK:1088) Become Fully Priced on Earnings?
+- [+0] Here's Why China Shenhua Energy Co. (CSUAY) Is a Great 'Buy the Bottom' Stock Now
+### 3197 JP
+- [+1] Skylark Holdings (TSE:3197) Could Be 8% Undervalued After Strong September Sales
+- [+0] Skylark completes acquisition of Japanese restaurant operator Shinpachi
+- [+1] Skylark Holdings (TSE:3197): Evaluating Valuation After Strong Year-on-Year Sales Growth and Renewed Investor Interest
