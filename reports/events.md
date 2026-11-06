@@ -1,4 +1,4 @@
-# Contexto 2026-11-06 01:34 UTC
+# Contexto 2026-11-06 03:43 UTC
 
 ## Mercado
 | Mercado | Último | 1D | 1M |
@@ -7,60 +7,60 @@
 | Nasdaq | 24,315.00 | -5.52% | -11.7% |
 | VIX | 28.18 | +69.66% | +86.9% |
 | 10Y UST | 4.84 | -1.16% | -8.3% |
-| Dólar (DXY) | 101.59 | +0.07% | -0.6% |
-| Petróleo WTI | 91.03 | +3.30% | +3.1% |
-| Oro | 4,081.50 | +0.21% | -1.4% |
-| Cobre | 6.26 | -2.18% | -5.0% |
-| Bitcoin | 76,027.73 | -5.44% | -7.4% |
-| USD/JPY | 157.90 | -0.29% | -0.1% |
-| USD/KRW | 1,355.98 | +1.19% | +1.3% |
-| USD/INR | 94.52 | -0.25% | -1.9% |
-| Nikkei | 57,038.75 | -8.28% | -18.5% |
-| Kospi | 5,010.52 | -11.85% | -27.8% |
-| Hang Seng | 23,919.50 | +1.67% | -0.5% |
-| Nifty | 23,960.60 | +0.63% | +6.2% |
-| Taiwan | 38,272.53 | -10.89% | -21.0% |
-| Jakarta | 4,919.77 | +0.32% | -20.6% |
-| MSCI EM (EEM) | 61.62 | +0.85% | -9.7% |
+| Dólar (DXY) | 101.71 | +0.20% | -0.5% |
+| Petróleo WTI | 91.86 | +4.24% | +4.1% |
+| Oro | 4,056.50 | -0.41% | -2.0% |
+| Cobre | 6.23 | -2.66% | -5.5% |
+| Bitcoin | 75,788.47 | -5.74% | -7.7% |
+| USD/JPY | 157.86 | -0.31% | -0.1% |
+| USD/KRW | 1,359.72 | +1.47% | +1.5% |
+| USD/INR | 94.43 | -0.09% | -2.4% |
+| Nikkei | 57,583.47 | -5.72% | -18.5% |
+| Kospi | 5,114.60 | -5.00% | -24.8% |
+| Hang Seng | 24,578.95 | -0.88% | +1.9% |
+| Nifty | 24,421.25 | -0.47% | +8.0% |
+| Taiwan | 39,478.42 | -5.04% | -20.6% |
+| Jakarta | 4,937.05 | -1.85% | -18.1% |
+| MSCI EM (EEM) | 58.05 | -5.79% | -13.8% |
 
 ## Resultados y consenso
 | Ticker | Resultados | Días | EPS est. | Últimas reacciones (1d) | Obj. analistas |
 |---|---|---|---|---|---|
-| VWS DC | 2026-11-11 | 5 | 0.40 | +17.5%, +0.5%, -14.7%, +13.9% | 216.99 (+6%) |
-| WMT US | 2026-11-19 | 13 | 0.64 | -9.1%, -8.1%, -2.9%, +4.7% | n/d |
-| COST US | 2026-12-10 | 34 | 4.91 | +2.0%, -4.7%, -0.9%, +1.2% | n/d |
-| 2659 JP | 2027-01-06 | 61 | n/d | n/d | 3650.00 (+11%) |
-| 9948 JP | 2027-01-07 | 62 | n/d | n/d | 3500.00 (-4%) |
-| 6532 JP | 2027-01-14 | 69 | 85.23 | +17.2%, -1.4% | 10087.69 (-14%) |
-| PNB IN | 2027-01-19 | 74 | 3.67 | +6.0%, +6.0%, +1.4%, -5.0% | 129.94 (+3%) |
-| V US | 2027-01-26 | 81 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | n/d |
+| 9605 JP | 2026-11-10 | 4 | n/d | +5.5% | 5900.00 (-5%) |
+| WMT US | 2026-11-19 | 13 | 0.64 | -9.1%, -8.1%, -2.9%, +4.7% | 127.47 (-0%) |
+| COST US | 2026-12-10 | 34 | 4.91 | +2.0%, -4.7%, -0.9%, +1.2% | 1067.59 (+0%) |
+| V US | 2027-01-26 | 81 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | 443.44 (+5%) |
 | MSFT US | 2027-01-27 | 82 | 4.86 | -0.2%, +14.7%, -5.0%, -9.8% | n/d |
-| TSLA US | 2027-01-27 | 82 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | n/d |
+| TSLA US | 2027-01-27 | 82 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | 413.10 (+20%) |
 | AAPL US | 2027-01-28 | 83 | 2.90 | -3.7%, -8.7%, +3.7%, +1.2% | n/d |
-| MA US | 2027-01-28 | 83 | 5.12 | +4.5%, +1.7%, -5.7%, +3.3% | n/d |
-| 9042 JP | 2027-01-28 | 83 | n/d | n/d | 5220.00 (+10%) |
-| PAYTM IN | 2027-01-28 | 83 | 4.96 | -0.9%, -3.5%, +10.1%, -3.4% | 1973.73 (+11%) |
-| 8218 JP | 2027-02-02 | 88 | n/d | n/d | 3950.00 (-0%) |
+| MA US | 2027-01-28 | 83 | 5.12 | +4.5%, +1.7%, -5.7%, +3.3% | 707.79 (+8%) |
+| 4502 JP | 2027-01-28 | 83 | 43.14 | +5.5%, -5.7%, +1.7%, +3.1% | 6815.81 (+4%) |
+| 9504 JP | 2027-01-29 | 84 | 35.10 | -4.0%, -3.9%, -6.8%, +8.1% | 970.00 (-9%) |
 | LLY US | 2027-02-03 | 89 | 11.12 | +10.0%, +6.8%, +13.2%, +1.7% | n/d |
+| 7309 JP | 2027-02-09 | 95 | 111.69 | +5.7%, +10.6%, -1.4%, -4.1% | 19664.50 (-7%) |
 | 2914 JP | 2027-02-10 | 96 | 22.13 | -1.2%, +5.2%, +3.8%, +0.7% | n/d |
-| MELI UW | 2027-02-25 | 111 | 11.16 | +nan%, -3.1%, -11.3%, -5.2% | n/d |
+| MELI UW | 2027-02-25 | 111 | 11.16 | -7.9%, -3.1%, -11.3%, -5.2% | n/d |
 | TBBB US | 2027-03-10 | 124 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | n/d |
-| 1919 HK | 2027-03-18 | 132 | n/d | n/d | n/d |
-| REM SJ | 2027-03-24 | 138 | n/d | +3.6% | 23943.00 (+14%) |
-| 3968 HK | 2027-03-29 | 143 | 1.49 | +0.5%, +2.9%, -4.7%, +0.8% | 60.63 (+12%) |
+| 87 HK | 2027-03-11 | 125 | n/d | n/d | n/d |
+| 1919 HK | 2027-03-18 | 132 | n/d | n/d | 16.86 (-5%) |
+| 836 HK | 2027-03-18 | 132 | n/d | n/d | 21.44 (+6%) |
+| 998 HK | 2027-03-19 | 133 | n/d | +2.9%, +3.3%, -0.4%, -2.0% | 9.83 (+18%) |
 | DVN US | n/d | - | n/d | -5.6%, -9.1%, -0.5% | n/d |
 | MP US | n/d | - | n/d | +6.7%, -7.2%, +0.4%, +6.7% | n/d |
+| ANGELONE IN | n/d | - | n/d | -2.0%, +0.4%, +8.3%, +9.0% | 358.50 (+12%) |
+| 028050 KS | n/d | - | n/d | -2.2%, -9.5%, -0.8%, +0.0% | 76809.52 (+25%) |
+| JYOTICNC IN | n/d | - | n/d | +9.9%, -7.4%, -10.9%, +0.2% | 1130.25 (+11%) |
 
 ## Titulares recientes
 ### DVN US
+- [+0] Devon Energy Posts $2 Billion in Free Cash Flow as Buybacks Accelerate
+- [+0] Devon Energy (DVN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates
 - [+0] Why Is Everyone Ignoring Expand Energy Stock's High Cash Yield?
 - [-1] Devon Energy (NYSE:DVN) misses Q3 2026 sales expectations
 - [+1] Devon Energy (DVN) Beats Q3 Earnings Estimates
 - [+0] Devon Energy: Q3 Earnings Snapshot
-- [+0] Are Investors Undervaluing Devon Energy (DVN) Right Now?
-- [+0] Brokers Suggest Investing in Devon Energy (DVN): Read This Before Placing a Bet
 ### AAPL US
-- [-1] Dow Jones Futures Fall, Techs Bounce After Nasdaq Dives 5.5%; Nvidia, Sandisk, CoreWeave, SpaceX Plunge
+- [-1] Dow Jones Futures Fall, Techs Rise After Nasdaq Dives 5.5%; Nvidia, Sandisk, CoreWeave, SpaceX Plunge
 - [+0] S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory —  NVDA, AAPL, UBER, SOXX In Focus
 - [+0] Apple, Alphabet, and Meta: 3 Big Takeaways from Recent Earnings
 - [+0] Berkshire After Buffett: Steady Hands, Big Bets In The Greg Abel Era
@@ -88,12 +88,12 @@
 - [+0] MercadoLibre Pays Up to Win Shoppers’ Loyalty
 - [+0] MercadoLibre (MELI) Q3 2026 Earnings Call Transcript
 ### 2914 JP
+- [+0] Japan Urges Russia to Return Control of Japan Tobacco Assets
 - [+1] JAPAN TOB (JAPAY) Upgraded to Strong Buy: Here's Why
 - [+0] Best Momentum Stocks to Buy for October 30th
 - [+1] New Strong Buy Stocks for October 30th
 - [+0] Best Income Stocks to Buy for October 30th
 - [+1] Japan Tobacco raises FY earnings outlook as heated tobacco sales climb
-- [+0] Are You Looking for a Top Momentum Pick? Why JAPAN TOB (JAPAY) is a Great Choice
 ### MP US
 - [+0] MP Materials Corp. (MP) Tops Q3 Earnings and Revenue Estimates
 - [+0] MP Materials Rare-Earth Earnings Were Rock Solid. What’s Up With the Stock?
@@ -150,41 +150,47 @@
 - [+0] Costco retains BofA "buy" as October US comps rise 8.1%
 - [+0] Energy-Drinks Are Exploding. Why Is Celsius Stock Fizzling?
 - [+0] Workers Caught In 'The Great 2026 Mass Layoff Wave' Share What Life Looks Like Now. 'Been Playing A Lot Of Video Games, But…'
-### 6532 JP
-- [+0] Learn Why The Bull Case For Baycurrent Stock Could Change Following Half Year Earnings
-- [+0] Tech Rebound Lifts Asian Stock Markets
-- [+1] BayCurrent’s Strong FY2026 Results and Dividend Hike Might Change The Case For Investing In BayCurrent (TSE:6532)
-- [+0] Middle East Outlook Elevates Asian Stock Markets
-- [+0] Oil Prices Rise, Asian Stock Markets Sink
-- [+0] Tech, AI Outlooks Roil But Broadly Lift Asian Stock Markets
-### VWS DC
-- [+0] What’s Moving the Markets Today?
-- [+0] Which sectors will benefit most and face pressure after Democratic sweep?
-- [+1] Global renewable energy stocks rally after Democratic sweep in U.S. midterms
-- [+0] Wind-Energy Stocks, One of Trump’s Least-Favorite Sectors, Gain Ground
-- [+0] Van Oord, Vestas install final turbine at 760MW Ecowende wind farm
-- [+0] Is Vestas Wind Systems (CPSE:VWS) Still Undervalued After A 52% Gain?
-### 3968 HK
-- [+0] Visa Enables Apple Pay Support for Chinese Visa Cardholders
-### 9948 JP
-- [+1] What ARCS (TSE:9948) Higher Q2 Dividend Means For Shareholders
-### 8218 JP
-- [+1] Should Interim Earnings And Dividend Require Action From Komeri Co. Ltd. (TSE:8218) Investors?
-### REM SJ
-- [+1] Remgro Ltd (FRA:RE7) (FY 2026) Earnings Call Highlights: Headline Earnings Surge 42% and ...
-- [+1] Should Income Investors Look At Remgro Limited (JSE:REM) Before Its Ex-Dividend?
-### 9042 JP
-- [+1] Can Hankyu Hanshin Holdings (TSE:9042) Justify Its Valuation On The Expanded Buyback?
-### 2659 JP
-- [+1] Half Year Profit Growth Will Impact San A Shares In SAN A CO LTD (TSE:2659) Investors
-### PNB IN
-- [+1] Punjab National Bank (BOM:532461) Q1 2027 Earnings Call Highlights: Strong Growth Amidst ...
-- [+0] India's PNB hikes cybersecurity spend as AI models including Anthropic’s Mythos raise risks
-- [+1] Punjab National Bank (BOM:532461) Q3 2026 Earnings Call Highlights: Strong Growth Amidst Margin ...
-### PAYTM IN
-- [+0] One97 Communications And 2 Top Indian Founder Led Stocks
-- [+0] Top 3 Indian Founder Led Stocks To Watch In November 2026
-- [+0] 3 Great Indian Founder Led Stocks To Own In November 2026
-- [+0] What One97 Communications Holders Got Right
-- [+1] 3 Indian Founder Led Stocks To Watch With Up To 35% Earnings Growth
-- [+1] 3 Indian Founder Led Stocks To Watch With Revenue Growth Up To 22%
+### 87 HK
+- [+0] Recent Price Trend in Swire Pacific (SWRAY) is Your Friend, Here's Why
+- [+0] Zacks.com featured highlights include Vince, Vera Bradley, Forum Energy, American Outdoor Brands and Swire Pacific
+- [+0] 5 Stocks With Recent Price Strength Amid a Volatile October
+- [+0] Swire Pacific (SEHK:19) Stock May Be Near Fair Value On Cash Flow
+- [+0] Swire Pacific (SWRAY) Is a Great Choice for 'Trend' Investors, Here's Why
+- [+1] Swire Pacific Ltd's Dividend Analysis
+### 7309 JP
+- [+0] Did Raised Earnings Guidance Just Shift Shimano's (TSE:7309) Investment Narrative?
+- [+0] Where Does Shimano (TSE:7309) Value Sit Relative To Fair Value?
+### 998 HK
+- [+0] Should Value Investors Buy China CITIC Bank (CHCJY) Stock?
+- [+0] China CITIC Bank (CHCJY) Upgraded to Buy: What Does It Mean for the Stock?
+- [+0] Are Investors Undervaluing Bank of Communications (BCMXY) Right Now?
+- [+0] Are Investors Undervaluing China CITIC Bank (CHCJY) Right Now?
+- [+0] Should Value Investors Buy China CITIC Bank (CHCJY) Stock?
+- [+0] Are Investors Undervaluing China CITIC Bank (CHCJY) Right Now?
+### 4502 JP
+- [+0] HRMY Q3 Earnings Miss Estimates on Higher Costs Despite Wakix Growth
+- [+0] DNLI Up 7.8% Post Q3 Earnings: Should You Buy, Sell or Hold the Stock?
+- [+0] Asian Equities Traded in the US as American Depositary Receipts Drop Sharply in Thursday Trading
+- [+0] What Schrodinger (SDGR) Said on Its Q3 Earnings Call
+- [+0] Royalty Pharma Q3 Earnings Call Highlights
+- [+0] 6 Big Funds Sold Zoetis. Should You Follow Them Before Earnings?
+### ANGELONE IN
+- [+1] Angel One Ltd (BOM:543235) Q3 2026 Earnings Call Highlights: Robust Income Growth Amid Rising ...
+### 9605 JP
+- [+1] Toei Company (TSE:9605) Resets Dividend Policy, Is The Valuation Still Cheap?
+### 9504 JP
+- [+1] Is Chugoku Electric Power (TSE:9504) Undervalued As Its ¥149b Transition Loan Fuels Growth?
+### 028050 KS
+- [+1] Samsung E&A wins $3.5bn contract for Saudi Arabia fertiliser plant
+### JYOTICNC IN
+- [+1] Timex Group India And 2 Other Indian Growth Stocks
+- [+1] 3 Indian Growth Stocks With At Least 24% Revenue Growth
+- [+1] 3 Indian Growth Stocks With Earnings Growth Up To 37%
+- [+1] Our Pick Of The Best Indian Growth Stocks In October 2026
+- [+1] 3 Indian Growth Stocks With Healthy Balance Sheets Investors May Want To Track
+- [+0] Jyoti CNC Automation Ltd (NSE:JYOTICNC) (Q1 2027) Earnings Call Highlights: Robust Order Book ...
+### 836 HK
+- [+1] China Resources Power Holdings (SEHK:836) Gains Put Valuation Back In Focus
+- [+0] China Resources Power Holdings (SEHK:836) Stock May Be Fairly Valued On Dividends
+- [+1] China Resources Power Holdings Co Ltd's Dividend Analysis
+- [+0] Are Investors Undervaluing China Resources Power Holdings (CRPJY) Right Now?
