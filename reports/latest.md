@@ -1,55 +1,55 @@
-# Scan 2026-11-10 04:51 UTC
-Universo: 2842 | con datos y liquidez: 949 | análisis completo: 40
+# Scan 2026-11-10 19:44 UTC
+Universo: 2842 | con datos y liquidez: 959 | análisis completo: 40
 
 | # | Ticker | Rec | Score | Téc | Fund | Noticias | 3M | 1A |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 7839 JP | COMPRA FUERTE | +0.91 | +0.80 | +1.00 | +1.00 | +23% | +43% |
-| 2 | MCX IN | COMPRA FUERTE | +0.70 | +0.80 | +0.60 | +0.67 | +35% | +92% |
-| 3 | 4684 JP | COMPRA FUERTE | +0.70 | +0.80 | +0.40 | +1.00 | +42% | +24% |
-| 4 | 5857 JP | COMPRA FUERTE | +0.69 | +0.80 | +0.67 | +0.50 | +14% | +67% |
-| 5 | 4540 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +8% | +13% |
-| 6 | MRPL IN | COMPRA FUERTE | +0.64 | +0.80 | +0.80 | +0.00 | +7% | +10% |
-| 7 | 7747 JP | COMPRA FUERTE | +0.64 | +0.80 | +0.80 | +0.00 | +5% | +55% |
-| 8 | 9042 JP | COMPRA FUERTE | +0.63 | +0.80 | +0.20 | +1.00 | +9% | +11% |
-| 9 | 1038 HK | COMPRA FUERTE | +0.60 | +0.80 | +0.50 | +0.33 | +19% | +48% |
-| 10 | 8058 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.50 | +0.30 | +16% | +47% |
-| 11 | 2503 JP | COMPRA FUERTE | +0.58 | +0.80 | +0.50 | +0.22 | +8% | +41% |
-| 12 | CP CN | COMPRA FUERTE | +0.58 | +0.80 | +0.50 | +0.20 | +5% | +38% |
-| 13 | 3659 JP | COMPRA FUERTE | +0.58 | +0.80 | +0.50 | +0.20 | +44% | +10% |
-| 14 | 5108 JP | COMPRA FUERTE | +0.58 | +0.80 | +0.50 | +0.20 | +8% | +29% |
-| 15 | 2502 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.67 | -0.10 | +7% | +4% |
-| 16 | POWR IJ | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +23% | +53% |
-| 17 | 3968 HK | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +13% | +18% |
-| 18 | LMW IN | COMPRA FUERTE | +0.56 | +0.80 | +0.00 | +1.00 | +5% | +11% |
-| 19 | 3988 HK | COMPRA FUERTE | +0.55 | +0.80 | +0.60 | -0.10 | +19% | +50% |
-| 20 | 1919 HK | COMPRA FUERTE | +0.54 | +0.80 | +0.33 | +0.33 | +15% | +36% |
-| 21 | COFORGE IN | COMPRA FUERTE | +0.52 | +0.80 | +0.20 | +0.43 | +15% | +16% |
-| 22 | 2328 HK | COMPRA FUERTE | +0.51 | +0.80 | +0.00 | +0.75 | +14% | +2% |
-| 23 | PAYTM IN | COMPRA | +0.49 | +0.80 | +0.20 | +0.30 | +24% | +37% |
-| 24 | 9983 JP | COMPRA | +0.48 | +0.80 | +0.00 | +0.60 | +6% | +48% |
-| 25 | INTP IJ | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +7% | +4% |
+| 1 | 8218 JP | COMPRA FUERTE | +0.74 | +0.80 | +0.50 | +1.00 | +6% | +27% |
+| 2 | 9766 JP | COMPRA FUERTE | +0.70 | +0.80 | +0.83 | +0.25 | +43% | +30% |
+| 3 | 9735 JP | COMPRA FUERTE | +0.68 | +0.80 | +0.33 | +1.00 | +3% | +33% |
+| 4 | 1398 HK | COMPRA FUERTE | +0.67 | +0.80 | +0.60 | +0.50 | +13% | +43% |
+| 5 | 2587 JP | COMPRA FUERTE | +0.64 | +0.80 | +0.60 | +0.33 | +11% | +6% |
+| 6 | 7453 JP | COMPRA FUERTE | +0.59 | +0.80 | +0.50 | +0.30 | +19% | +59% |
+| 7 | 7581 JP | COMPRA FUERTE | +0.58 | +0.80 | +0.33 | +0.50 | +15% | +58% |
+| 8 | 6160 HK | COMPRA FUERTE | +0.58 | +0.80 | +0.50 | +0.20 | +16% | +34% |
+| 9 | 2502 JP | COMPRA FUERTE | +0.57 | +0.80 | +0.67 | -0.10 | +8% | +4% |
+| 10 | ACUTAAS IN | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +18% | +125% |
+| 11 | POWR IJ | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +25% | +50% |
+| 12 | 181710 KS | COMPRA FUERTE | +0.56 | +0.80 | +0.00 | +1.00 | +39% | +110% |
+| 13 | 028050 KS | COMPRA FUERTE | +0.56 | +0.80 | +0.00 | +1.00 | +23% | +129% |
+| 14 | 6758 JP | COMPRA FUERTE | +0.56 | +0.80 | +0.33 | +0.40 | +22% | -1% |
+| 15 | 3988 HK | COMPRA FUERTE | +0.55 | +0.80 | +0.60 | -0.10 | +18% | +48% |
+| 16 | 3197 JP | COMPRA FUERTE | +0.53 | +0.80 | +0.20 | +0.50 | +22% | +29% |
+| 17 | COFORGE IN | COMPRA FUERTE | +0.52 | +0.80 | +0.20 | +0.43 | +15% | +16% |
+| 18 | LLY US | COMPRA FUERTE | +0.52 | +0.80 | +0.50 | -0.10 | +18% | +56% |
+| 19 | 2001 JP | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +8% | +32% |
+| 20 | 9008 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +2% | +4% |
+| 21 | 3774 JP | COMPRA | +0.46 | +0.80 | +0.00 | +0.50 | +11% | +43% |
+| 22 | 386 HK | COMPRA | +0.46 | +0.80 | +0.17 | +0.20 | +15% | +24% |
+| 23 | 284740 KS | COMPRA | +0.45 | +0.80 | +0.25 | +0.00 | +10% | +3% |
+| 24 | 9041 JP | COMPRA | +0.43 | +0.80 | +0.20 | +0.00 | +6% | +19% |
+| 25 | 2501 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +16% | +48% |
 
 ## Rebalanceo sugerido
 ```
 ÓRDENES (monto en USD):
   RECORTAR DVN US      $      11,904   20.7% -> 19.5%
-  COMPRAR  7839 JP     $      97,171   COMPRA FUERTE, score +0.91
-  COMPRAR  MCX IN      $      56,933   COMPRA FUERTE, score +0.70
-  COMPRAR  4684 JP     $      66,539   COMPRA FUERTE, score +0.70
-  COMPRAR  5857 JP     $      43,251   COMPRA FUERTE, score +0.69
-  COMPRAR  4540 JP     $      94,848   COMPRA FUERTE, score +0.65
+  COMPRAR  1398 HK     $     100,000   COMPRA FUERTE, score +0.67
+  COMPRAR  8218 JP     $      91,595   COMPRA FUERTE, score +0.74
+  COMPRAR  9766 JP     $      45,899   COMPRA FUERTE, score +0.70
+  COMPRAR  9735 JP     $      95,307   COMPRA FUERTE, score +0.68
+  COMPRAR  181710 KS   $      25,941   COMPRA FUERTE, score +0.65
 
 CARTERA RESULTANTE:
   DVN US      $     195,000   19.5%
   AAPL US     $     101,664   10.2%
-  7839 JP     $      97,171    9.7%
-  4540 JP     $      94,848    9.5%
-  4684 JP     $      66,539    6.7%
-  MCX IN      $      56,933    5.7%
-  5857 JP     $      43,251    4.3%
+  1398 HK     $     100,000   10.0%
+  9735 JP     $      95,307    9.5%
+  8218 JP     $      91,595    9.2%
+  9766 JP     $      45,899    4.6%
   TBBB US     $      39,426    3.9%
   MSFT US     $      29,352    2.9%
   MELI UW     $      28,013    2.8%
+  181710 KS   $      25,941    2.6%
   2914 JP     $      24,990    2.5%
   MP US       $      20,896    2.1%
   LLY US      $      20,529    2.1%
