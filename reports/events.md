@@ -1,4 +1,4 @@
-# Contexto 2026-11-18 02:53 UTC
+# Contexto 2026-11-18 04:44 UTC
 
 ## Mercado
 | Mercado | Último | 1D | 1M |
@@ -7,20 +7,20 @@
 | Nasdaq | 24,328.38 | -0.74% | -8.0% |
 | VIX | 25.46 | +11.13% | +38.1% |
 | 10Y UST | 5.10 | -0.35% | -0.6% |
-| Dólar (DXY) | 103.60 | +0.05% | +1.6% |
-| Petróleo WTI | 85.05 | -0.78% | -18.0% |
-| Oro | 3,797.60 | -1.44% | -8.7% |
-| Cobre | 5.91 | -1.38% | -9.5% |
-| Bitcoin | 64,254.72 | -0.93% | -20.5% |
-| USD/JPY | 159.38 | -0.09% | +0.5% |
-| USD/KRW | 1,328.28 | -0.55% | -0.1% |
-| USD/INR | 93.46 | -0.54% | -1.6% |
-| Nikkei | 58,696.54 | -0.28% | -9.6% |
-| Kospi | 4,988.20 | +0.40% | -10.2% |
-| Hang Seng | 23,314.20 | -0.83% | -2.3% |
-| Nifty | 25,387.40 | +0.38% | +10.4% |
-| Taiwan | 39,746.01 | -0.86% | -15.6% |
-| Jakarta | 5,325.03 | +0.38% | +0.9% |
+| Dólar (DXY) | 103.62 | +0.07% | +1.6% |
+| Petróleo WTI | 84.89 | -0.97% | -18.1% |
+| Oro | 3,785.20 | -1.76% | -9.0% |
+| Cobre | 5.88 | -1.93% | -10.0% |
+| Bitcoin | 64,397.41 | -0.71% | -20.3% |
+| USD/JPY | 159.26 | -0.17% | +0.5% |
+| USD/KRW | 1,330.74 | -0.37% | +0.1% |
+| USD/INR | 93.35 | -0.66% | -1.7% |
+| Nikkei | 59,071.73 | +0.36% | -9.0% |
+| Kospi | 5,067.62 | +2.00% | -8.7% |
+| Hang Seng | 23,241.48 | -1.13% | -2.6% |
+| Nifty | 25,262.20 | -0.49% | +9.1% |
+| Taiwan | 40,611.58 | +1.30% | -13.8% |
+| Jakarta | 5,323.22 | +0.35% | +0.8% |
 | MSCI EM (EEM) | 58.27 | -1.05% | -8.0% |
 
 ## Resultados y consenso
@@ -28,28 +28,28 @@
 |---|---|---|---|---|---|
 | WMT US | 2026-11-19 | 1 | 0.64 | -9.1%, -8.1%, -2.9%, +4.7% | 131.90 (+3%) |
 | COST US | 2026-12-10 | 22 | 4.92 | +2.0%, -4.7%, -0.9%, +1.2% | 1085.35 (-2%) |
-| 3635 JP | 2027-01-25 | 68 | 38.57 | +4.0%, +1.8%, +0.0%, -2.0% | 1944.44 (+1%) |
-| 6988 JP | 2027-01-25 | 68 | 52.93 | -6.1%, +2.8%, -6.9%, -5.3% | 3800.00 (+7%) |
 | V US | 2027-01-26 | 69 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | 449.06 (+8%) |
 | 9697 JP | 2027-01-26 | 69 | 20.71 | -11.7%, +20.2%, -11.1%, +7.1% | 4816.11 (+7%) |
 | MSFT US | 2027-01-27 | 70 | 4.86 | -0.2%, +14.7%, -5.0%, -9.8% | 636.12 (+26%) |
 | TSLA US | 2027-01-27 | 70 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | 412.48 (+9%) |
-| GLAND IN | 2027-01-27 | 70 | 20.89 | +5.0%, +13.3%, +13.6%, +7.4% | 3271.07 (+1%) |
 | AAPL US | 2027-01-28 | 71 | 2.91 | -3.7%, -8.7%, +3.7%, +1.2% | 345.63 (-2%) |
 | MA US | 2027-01-28 | 71 | 5.11 | +4.5%, +1.7%, -5.7%, +3.3% | 720.69 (+12%) |
-| 7947 JP | 2027-01-28 | 71 | 70.95 | +8.2%, -0.7%, -0.3%, -1.5% | 3390.00 (+8%) |
+| 9766 JP | 2027-01-28 | 71 | 306.87 | +15.0%, -9.1%, +11.1%, +5.0% | 30217.65 (+2%) |
 | LLY US | 2027-02-03 | 77 | 11.25 | +10.0%, +6.8%, +13.2%, +1.7% | 1468.57 (+4%) |
+| CHILE CI | 2027-02-03 | 77 | 3.33 | -1.1%, -2.2%, -0.3%, +2.6% | 187.90 (-2%) |
+| 9201 JP | 2027-02-03 | 77 | 103.21 | +2.9%, +0.5%, +2.5%, +2.3% | 3339.09 (-3%) |
+| 8058 JP | 2027-02-04 | 78 | 57.47 | +10.5%, -0.8%, +8.2%, +8.9% | 5312.36 (+4%) |
 | 2914 JP | 2027-02-10 | 84 | 24.80 | -1.2%, +5.2%, +3.8%, +0.7% | 7350.29 (+24%) |
+| 2587 JP | 2027-02-11 | 85 | 31.37 | +2.9%, +4.4%, -6.0%, -6.5% | 4798.18 (-11%) |
+| 9735 JP | 2027-02-12 | 86 | n/d | n/d | 7110.00 (-1%) |
 | DVN US | 2027-02-16 | 90 | 1.54 | -4.3%, -5.6%, -9.1%, -0.5% | 59.78 (+38%) |
-| 4118 JP | 2027-02-17 | 91 | n/d | n/d | 5541.67 (-12%) |
 | MELI UW | 2027-02-25 | 99 | 10.14 | -7.9%, -3.1%, -11.3%, -5.2% | 2194.30 (+53%) |
 | MP US | 2027-02-25 | 99 | -0.06 | -1.4%, +6.7%, -7.2%, +0.4% | 67.50 (+94%) |
-| TBBB US | 2027-03-10 | 112 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | 67.05 (-1%) |
-| 1919 HK | 2027-03-18 | 120 | n/d | n/d | 17.32 (-2%) |
-| JYOTICNC IN | n/d | - | n/d | +9.9%, -7.4%, -10.9%, +0.2% | 1130.25 (+9%) |
-| PGIL IN | n/d | - | n/d | +1.4%, +4.7%, +12.0%, -4.3% | 1492.50 (+9%) |
-| ANTHEM IN | n/d | - | n/d | +6.3%, -1.6%, +7.9% | 974.25 (+5%) |
-| POWR IJ | n/d | - | n/d | n/d | 980.53 (+2%) |
+| TBBB US | 2027-03-10 | 112 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | 67.07 (-1%) |
+| 1398 HK | 2027-03-16 | 118 | 0.28 | -0.1%, +1.5%, -2.1%, +2.7% | 8.72 (+10%) |
+| 1919 HK | 2027-03-18 | 120 | n/d | n/d | 17.33 (-1%) |
+| 939 HK | 2027-03-29 | 131 | 0.33 | +0.1%, +4.0%, -1.2%, +2.9% | 11.68 (+11%) |
+| POWR IJ | n/d | - | n/d | n/d | 985.50 (+3%) |
 
 ## Titulares recientes
 ### DVN US
@@ -61,11 +61,11 @@
 - [-1] Bernstein cuts ConocoPhillips and Diamondback ratings as Iran de-escalation looms
 ### AAPL US
 - [+0] Apple outage today: iCloud and App Store down after a week of big outages
+- [+0] Broadcom vs. Micron Technology: Which Tech Stock Is the Better Buy for 2027?
+- [+1] A Retiree With $400,000 in His 401(k) Tries to Move Money Before Stocks Fall Further. Apple’s Widespread Outage Raises the Stakes of a Missed Trade
 - [+0] Mary Barra Transformed GM. Her Successor May Have to Do It Again.
 - [+0] Nvidia says 'no' to rehiring Huang and WSJ reports SEC is probing the chipmaker
 - [+0] Once the Market Cap King, Nvidia Has Now Fallen More Than $1 Trillion Behind Apple
-- [+0] Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal
-- [+0] National Security Outage Is Just One Reason for Today’s Software Stock Selloff
 ### TBBB US
 - [+0] BBB Foods Same-Store Sales Jump 20.5%: Rapid Earnings Reaction
 - [+0] What BBB Foods (TBBB) Said on Its Q3 Earnings Call
@@ -131,11 +131,11 @@
 - [+0] Walmart vs. Target Stock: 1 Is Worth 14x the Other. Here’s Which Stock to Buy Before Earnings.
 ### TSLA US
 - [+0] What far cheaper AI compute in space could mean for Elon Musk
+- [+0] “Of Course,” Musk Says When Told Tesla’s $1.6 Trillion Already Prices In Moderate Cybercab Success.
 - [+0] Coinbase Exec Says AI IPOs Pulling Money From Bitcoin Is ‘A Reasonable Argument’ As Anthropic Debut Nears
 - [+0] Mary Barra Transformed GM. Her Successor May Have to Do It Again.
 - [+0] SpaceX (SPCX) Merger Talks Advance As $74 Billion AI Campus Plan Takes Shape
 - [+1] S&P 500, Dow, Nasdaq Futures Power Ahead On Nvidia Outlook Beat —  NVDA, TSLA, ANT In Focus
-- [+1] 3 Founder Led Stocks With Revenue Growth Up To 20%
 ### 1919 HK
 - [+1] Cosco profit rockets 81% as ocean freight revenue climbs in Q3
 - [+0] COSCO SHIPPING Holdings (SEHK:1919) Stock Looks Reasonable After A 246% Five Year Run
@@ -144,19 +144,26 @@
 - [+0] Should Value Investors Buy China Cosco (CICOY) Stock?
 - [+1] A Look At COSCO SHIPPING Holdings (SEHK:1919) Valuation After Recent Share Price Gains
 ### COST US
+- [+0] Charlie Munger Said He’d ‘Never Sell a Share’ of Costco. $10,000 From 1997 Is Now Worth $833,000 and Gets a $22,535 Check on Dec. 4
 - [+1] Costco (COST) Stock Fair Value Edges Higher As AI Rollout Expands And Lawsuits Emerge
 - [+0] Costco releases trendy holiday product
 - [+0] Costco Is Near Its High. Bank of America Sees Another 13%
 - [+0] Costco stock near 52-week high as panic buying looks priced in
 - [+0] O’Reilly Automotive, Dollar Tree, and 7 More Retail Stocks to Buy Right Now—and 15 to Avoid
-- [+0] After IPO Day: Executing as a Public Company, 6th Palm Beach CorpGov Forum
-### JYOTICNC IN
-- [+1] Top 3 Indian Growth Stocks To Watch In November 2026
-- [+1] Shaily Engineering Plastics And 2 Indian Growth Stocks To Watch
-- [+1] 3 Indian Growth Stocks With Earnings Growth Over 30%
-- [+1] Top 3 Indian Growth Stocks To Watch In November 2026
-- [+1] Sterlite Technologies And 2 Indian Growth Stocks To Watch
-- [+1] Jyoti CNC Automation Ltd (NSE:JYOTICNC) (Q2 2027) Earnings Call Highlights: Record Machine ...
+### 9766 JP
+- [+0] Konami Group (TSE:9766) Stock Trades At A Premium To Cash Flow
+- [+0] Konami Group (TSE:9766) Stock Could Be 15% Overvalued On Cash Flow Strength
+- [+1] Konami Group Corp's Dividend Analysis
+- [+0] Nintendo Surges 6.8% As AI Fatigue Sparks Gaming Rotation
+### 9735 JP
+- [+1] SECOM Co Ltd's Dividend Analysis
+### 8058 JP
+- [+0] HudBay Minerals Q3 Earnings Call Highlights
+- [+1] Mitsubishi reports operating profit up but sales down in H1 FY27
+- [+0] Berkshire Hathaway Deepens Japan Focus With Fresh Yen Bond Plans
+- [+1] Mitsubishi (TSE:8058) Approved A ¥1 Trillion Share Buyback
+- [+1] Mitsubishi raises FY profit forecast, announces 1 trillion yen buyback
+- [+0] Abu Dhabi’s XRG to acquire Shell’s stake in Australian LNG project
 ### 9697 JP
 - [+0] Capcom (TSE:9697) Stock Looks Fully Valued As Its 220% Run Continues
 - [+0] Is Academy Sports and Outdoors (ASO) Stock Outpacing Its Consumer Discretionary Peers This Year?
@@ -164,32 +171,38 @@
 - [+1] Capcom Co Ltd (CCOEF) (Q2 2027) Earnings Call Highlights: Record-Breaking 14th Consecutive ...
 - [+0] Capcom (TSE:9697) Stock Faces A Q2 Earnings Margin Reckoning
 - [+1] Tech Rally Lifts Asian Stock Markets
-### 3635 JP
-- [+0] Is Koei Tecmo Holdings (TSE:3635) Reasonable After A 15% Rebound?
-- [+0] Koei Tecmo Holdings (TSE:3635) Stock May Be 28% Above Fair Value On Cash Flow
-- [+1] Koei Tecmo expects record-breaking financial year more thanks to its massive tech investments than the launch of Pokemon Pokopia and Nioh 3
-### PGIL IN
-- [+1] Pearl Global Industries Ltd (BOM:532808) (Q2 2027) Earnings Call Highlights: Record H1 Revenue, ...
-- [+0] India New Zealand FTA Stocks With Export Upside Investors Should Watch
-- [+1] Pearl Global Industries Ltd (BOM:532808) Q2 2026 Earnings Call Highlights: Strong Revenue ...
-### ANTHEM IN
-- [+0] Anthem Biosciences Ltd (NSE:ANTHEM) (Q2 2027) Earnings Call Highlights: 50. ...
-- [+1] Anthem Biosciences Ltd (NSE:ANTHEM) Q1 2027 Earnings Call Highlights: Strong EBITDA Margin Amid ...
-- [+0] The Healthcare M&A Wave
-- [+1] Anthem Biosciences Ltd (NSE:ANTHEM) Q4 2026 Earnings Call Highlights: Record Growth and ...
-- [+1] Anthem Biosciences Ltd (NSE:ANTHEM) Q3 2025 Earnings Call Highlights: Strong EBITDA Growth ...
-### GLAND IN
-- [+0] Gland Pharma Ltd (NSE:GLAND) (Q2 2027) Earnings Call Highlights: Revenue Jumps 23% as CDMO and ...
-- [+0] Did Gland Pharma's 77% Run Pass You By? What Bulls Still Need
-- [+0] 3 Indian Export Stocks Retail Investors Are Watching For Dollar Earnings
-- [+1] Gland Pharma Ltd (NSE:GLAND) (Q1 2027) Earnings Call Highlights: Record 20% Revenue Growth and ...
-- [+1] India's Gland Pharma beats quarterly profit view on strong Europe, US sales
-- [+1] Gland Pharma Ltd (NSE:GLAND) Q4 2026 Earnings Call Highlights: Robust Revenue Growth and ...
-### 4118 JP
-- [+0] Kaneka (TSE:4118) Stock Looks Fully Priced On Its 76% Run
-### 7947 JP
-- [+0] Is FP (TSE:7947) Fully Valued On Its Forecast Review And Pricing Focus?
-- [+0] FP (TSE:7947) Posts First Quarter Earnings, Is The Stock Already Fully Priced?
-### 6988 JP
-- [+1] Nitto Denko Corp's Dividend Analysis
-- [+0] Assessing Nitto Denko (TSE:6988) Valuation After Recent Share Price Weakness And Mixed Returns
+### 939 HK
+- [+0] HKMA Pilot Lets Banks Settle Tokenized Deposits Nights and Weekends in Central Bank Money
+- [+0] China big bank shares jump after robust third-quarter earnings
+- [+1] China Construction Bank (SEHK:939) Stock Stays Flat After Strong Q3 Earnings
+- [+0] Are Investors Undervaluing China Construction Bank (CICHY) Right Now?
+- [+0] Should Value Investors Buy China Construction Bank (CICHY) Stock?
+- [+0] What Does China Construction Bank (SEHK:939) Rmb 40 Billion AT1 Issue Change?
+### 1398 HK
+- [+0] Is Industrial & Commercial Bank of China (IDCBY) a Great Value Stock Right Now?
+- [+0] China big bank shares jump after robust third-quarter earnings
+- [+1] China's big banks post fastest quarterly profit growth in years as margins stabilise
+- [+1] ICBC (SEHK:1398) Q3 Results Highlight Steady Growth And Lingering NIM Pressure
+- [+0] Should Value Investors Buy Industrial & Commercial Bank of China (IDCBY) Stock?
+- [+0] Al Morjan secures $2.5bn in financing for Rabigh 2 IPP expansion
+### CHILE CI
+- [+0] Banco De Chile Q3 Earnings Call Highlights
+- [+0] CME Crypto Derivatives Trading Volume Reaches $469.5B in Q3
+- [+0] Interactive Brokers Adds Ethereum Staking for Eligible Clients
+- [+0] CME Group to Launch Bitcoin Cash and Uniswap Futures
+- [+0] Do Options Traders Know Something About Banco de Chile Stock We Don't?
+- [+1] Banco De Chile (BCH) (Q2 2026) Earnings Call Highlights: Record ROAE of 27. ...
+### 9201 JP
+- [+1] Embraer's Record Backlog Looks Promising, But Can It Keep Its Margins Climbing?
+- [+0] Is Japan Airlines (TSE:9201) Priced Right for Its Earnings Power?
+- [+0] Binance Heist: ‘Welcome to Our World,’ CISOs Say
+- [+0] Japan Airlines hires B747 cargo carriers to meet high-tech demand
+- [+0] Should Value Investors Buy Japan Airlines (JAPSY) Stock?
+- [+0] Nippon Express launches Transpacific air freight service to meet AI-driven cargo demand
+### 2587 JP
+- [+0] Suntory Beverage & Food (TSE:2587) Stock May Be 47% Undervalued On Cash Flow
+- [+0] Suntory Beverage And Food (TSE:2587) Stock May Be Reasonably Priced On Earnings
+- [+1] Can Celsius Holdings Sustain the 55% International Sales Growth?
+- [+1] Celsius Spain Deal Extends Global Reach After Earnings Beat And Buyback
+- [+0] Is Suntory Beverage & Food (TSE:2587) Still Attractive After Recent Share Price Softness?
+- [+0] Suntory Beverage & Food invests in UK production
