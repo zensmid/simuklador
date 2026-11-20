@@ -1,4 +1,4 @@
-# Contexto 2026-11-20 02:17 UTC
+# Contexto 2026-11-20 04:21 UTC
 
 ## Mercado
 | Mercado | Último | 1D | 1M |
@@ -7,49 +7,49 @@
 | Nasdaq | 23,879.20 | -2.25% | -10.6% |
 | VIX | 28.44 | +15.80% | +70.5% |
 | 10Y UST | 5.05 | -0.28% | -1.8% |
-| Dólar (DXY) | 103.94 | +0.08% | +2.1% |
-| Petróleo WTI | 82.89 | -0.44% | -14.7% |
-| Oro | 3,548.90 | -5.16% | -14.5% |
-| Cobre | 5.52 | -2.42% | -15.6% |
-| Bitcoin | 61,544.16 | -2.29% | -20.9% |
-| USD/JPY | 159.18 | -0.13% | +0.7% |
-| USD/KRW | 1,337.93 | +0.57% | +0.9% |
-| USD/INR | 93.28 | -0.20% | -1.1% |
-| Nikkei | 56,815.65 | -4.42% | -12.1% |
-| Kospi | 4,914.98 | -4.34% | -11.2% |
-| Hang Seng | 22,405.17 | -1.91% | -2.3% |
-| Nifty | 25,514.30 | +1.14% | +11.5% |
-| Taiwan | 36,270.43 | -5.61% | -21.7% |
-| Jakarta | 5,177.39 | -0.32% | -3.9% |
+| Dólar (DXY) | 103.82 | -0.04% | +2.0% |
+| Petróleo WTI | 83.03 | -0.28% | -14.5% |
+| Oro | 3,544.30 | -5.28% | -14.6% |
+| Cobre | 5.50 | -2.85% | -16.0% |
+| Bitcoin | 61,606.53 | -2.19% | -20.8% |
+| USD/JPY | 159.17 | -0.13% | +0.7% |
+| USD/KRW | 1,336.91 | +0.49% | +0.9% |
+| USD/INR | 93.13 | -0.36% | -1.3% |
+| Nikkei | 56,703.68 | -4.61% | -12.3% |
+| Kospi | 4,900.94 | -4.61% | -11.4% |
+| Hang Seng | 22,451.91 | -1.71% | -2.1% |
+| Nifty | 25,537.15 | +0.09% | +11.9% |
+| Taiwan | 36,364.94 | -5.37% | -21.4% |
+| Jakarta | 5,100.52 | -1.80% | -5.3% |
 | MSCI EM (EEM) | 56.75 | -1.95% | -10.7% |
 
 ## Resultados y consenso
 | Ticker | Resultados | Días | EPS est. | Últimas reacciones (1d) | Obj. analistas |
 |---|---|---|---|---|---|
 | COST US | 2026-12-10 | 20 | 4.92 | +2.0%, -4.7%, -0.9%, +1.2% | 1085.35 (-1%) |
-| 3391 JP | 2027-01-08 | 49 | 18.88 | +0.4%, +2.3%, -12.5%, -8.9% | 2607.78 (+3%) |
-| MCX IN | 2027-01-21 | 62 | 20.10 | +2.0%, -1.6%, +4.8%, +4.5% | 3783.12 (+4%) |
+| MCX IN | 2027-01-21 | 62 | 20.10 | +2.0%, -1.6%, +4.8%, +4.5% | 3783.12 (+6%) |
 | V US | 2027-01-26 | 67 | 3.63 | -0.9%, +1.7%, +8.1%, -1.6% | 450.96 (+12%) |
-| 9697 JP | 2027-01-26 | 67 | 20.71 | -11.7%, +20.2%, -11.1%, +7.1% | 4816.11 (+7%) |
+| 9697 JP | 2027-01-26 | 67 | 20.71 | -11.7%, +20.2%, -11.1%, +7.1% | 4816.11 (+9%) |
 | MSFT US | 2027-01-27 | 68 | 4.86 | -0.2%, +14.7%, -5.0%, -9.8% | 636.12 (+28%) |
 | TSLA US | 2027-01-27 | 68 | 0.50 | +0.2%, -15.6%, -3.3%, -3.3% | 412.48 (+10%) |
 | AAPL US | 2027-01-28 | 69 | 2.91 | -3.7%, -8.7%, +3.7%, +1.2% | 345.63 (-1%) |
 | MA US | 2027-01-28 | 69 | 5.11 | +4.5%, +1.7%, -5.7%, +3.3% | 720.69 (+15%) |
-| 5929 JP | 2027-01-29 | 70 | 60.16 | +9.2%, -10.5%, -2.3%, -7.3% | 4292.86 (+8%) |
-| LLY US | 2027-02-03 | 75 | 11.26 | +10.0%, +6.8%, +13.2%, +1.7% | 1468.57 (+9%) |
-| AMZN US | 2027-02-04 | 76 | 2.39 | -5.6%, +19.8%, +2.1%, -9.7% | 326.09 (+27%) |
-| 6758 JP | 2027-02-04 | 76 | 59.92 | +5.3%, -5.8%, +7.7%, +4.8% | 5042.17 (+16%) |
-| 9143 JP | 2027-02-05 | 77 | 36.37 | +1.4%, +4.9%, -3.3%, -3.1% | 1721.82 (+7%) |
-| 2914 JP | 2027-02-10 | 82 | 24.80 | -1.2%, +5.2%, +3.8%, +0.7% | 7350.29 (+38%) |
-| 011200 KS | 2027-02-10 | 82 | n/d | n/d | 25197.09 (+14%) |
+| 2002 JP | 2027-01-29 | 70 | 71.86 | -7.4%, -2.5%, +2.6%, -0.8% | 2374.00 (-2%) |
+| LLY US | 2027-02-03 | 75 | 11.26 | +10.0%, +6.8%, +13.2%, +1.7% | 1470.06 (+9%) |
+| 9201 JP | 2027-02-03 | 75 | 103.21 | +2.9%, +0.5%, +2.5%, +2.3% | 3339.09 (-5%) |
+| 6758 JP | 2027-02-04 | 76 | 59.92 | +5.3%, -5.8%, +7.7%, +4.8% | 5042.17 (+17%) |
+| 3774 JP | 2027-02-05 | 77 | 41.16 | +10.1%, -1.7%, +0.9%, -7.3% | 3683.70 (-7%) |
+| 2914 JP | 2027-02-10 | 82 | 24.80 | -1.2%, +5.2%, +3.8%, +0.7% | 7350.29 (+39%) |
+| 3659 JP | 2027-02-11 | 83 | 7.27 | +3.1%, +19.6%, -14.5%, -15.7% | 3010.11 (-3%) |
+| 2587 JP | 2027-02-11 | 83 | 31.37 | +2.9%, +4.4%, -6.0%, -6.5% | 4852.73 (-7%) |
+| 9735 JP | 2027-02-12 | 84 | n/d | n/d | 7150.00 (-1%) |
 | DVN US | 2027-02-16 | 88 | 1.55 | -4.3%, -5.6%, -9.1%, -0.5% | 59.81 (+42%) |
-| MELI UW | 2027-02-25 | 97 | 10.14 | -7.9%, -3.1%, -11.3%, -5.2% | 2168.14 (+60%) |
+| MELI UW | 2027-02-25 | 97 | 10.14 | -7.9%, -3.1%, -11.3%, -5.2% | 2152.76 (+59%) |
 | MP US | 2027-02-25 | 97 | -0.06 | -1.4%, +6.7%, -7.2%, +0.4% | 65.94 (+80%) |
 | TBBB US | 2027-03-10 | 110 | -1.80 | +11.3%, +18.7%, +0.6%, -5.7% | 66.80 (-0%) |
-| 1919 HK | 2027-03-18 | 118 | n/d | n/d | 17.30 (+1%) |
+| 1919 HK | 2027-03-18 | 118 | n/d | n/d | 17.31 (+1%) |
 | 3988 HK | 2027-03-30 | 130 | 0.21 | -4.5%, +7.2%, -1.2%, +2.3% | 7.02 (+14%) |
-| WMT US | n/d | - | n/d | -9.1%, -8.1%, -2.9% | 131.90 (+5%) |
-| LSIP IJ | n/d | - | n/d | n/d | 2251.67 (+44%) |
+| WMT US | n/d | - | n/d | -9.1%, -8.1%, -2.9% | 133.88 (+6%) |
 
 ## Titulares recientes
 ### DVN US
@@ -60,12 +60,12 @@
 - [+0] Will EOG's Janus Plant Expansion Strengthen Delaware Basin Margins?
 - [+0] Sell Alert: 5 Stocks Analysts Downgraded on Thursday
 ### AAPL US
+- [-1] Apple (AAPL) Stock Could Be 33% Overvalued On Fresh Service Outage Concerns
+- [+1] Tech takes a beating as AI trade comes unstuck despite Anthropic surge
 - [+0] History Says This Brilliant ETF Could Help You Turn $500 Per Month Into $784,100 While Barely Lifting a Finger.
 - [+0] 1 Unstoppable Stock to Buy Before It Joins NVDA and AAPL in the $1 Trillion Club
 - [+0] Apple May Try to Challenge Meta for Personal Agent Supremacy
 - [+0] S&P 500, Nasdaq, Dow End Lower As Anthropic Trading Debut Fails To Provide Adequate Confidence —  ANT, META, AAPL, GME In Focus
-- [+0] 3 ETFs for the 58-Year-Old Who Opened the 401(k) Brokerage Window and Did Not Know What to Buy
-- [-1] Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It ‘Making Room’ For AI
 ### TBBB US
 - [+0] BBB Foods Same-Store Sales Jump 20.5%: Rapid Earnings Reaction
 - [+0] What BBB Foods (TBBB) Said on Its Q3 Earnings Call
@@ -74,12 +74,12 @@
 - [+0] BBB Foods (TBBB) Q3 2026 Earnings Call Transcript
 - [+0] BBB Foods Inc. Q3 2026 Earnings Call Summary
 ### MSFT US
-- [+0] GTA VI: Why the 13-year wait could be worth $8 billion
-- [+0] Is Your VOO Fund Secretly An AI Bet?
-- [+0] IBM (IBM) Stock May Be 27% Below Fair Value On Quantum Platform News
-- [+1] Anthropic’s Margins Will Be “Probably Better Than a Hyperscaler,” Says Its Most Bullish Analyst. Here’s What That Takes
-- [+0] Microsoft reveals 80% server failure behind global outage
-- [-1] Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It ‘Making Room’ For AI
+- [+0] Microsoft CEO Satya Nadella explains why he asked 60K employees to quit
+- [+0] Microsoft CEO Nadella faces uncomfortable reality after outage
+- [+1] Akamai Technologies (AKAM) Expands Mobile Enterprise Browser Security
+- [+1] Tech takes a beating as AI trade comes unstuck despite Anthropic surge
+- [+0] How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic
+- [+0] Nvidia Backed AI Data Center Demand Puts Schneider Electric Stock In Focus
 ### MELI UW
 - [+0] Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?
 - [+0] Latest News In E-Commerce - Pix Powers Brazil's E-Commerce Boom
@@ -131,11 +131,11 @@
 - [+0] Stocks boosted by Anthropic optimism as the company gets set for IPO
 ### TSLA US
 - [+0] Elon Musk on his $500M in political spending: 'I feel pretty foolish'
+- [+1] Tech takes a beating as AI trade comes unstuck despite Anthropic surge
 - [+0] Is Tech in a Bear Market? 20 Tech Stocks Fall Up to 76% From Highs
 - [+0] Musk Says Optimus Will Do the Dishes “Within 12-18 Months.” Here’s Where Tesla’s Robot Stands
 - [+1] Tesla Robo-Taxi Expands to Dallas. It Isn’t Enough.
 - [+0] Michael Burry Adds To Tesla Rival BYD At Five-Year Lows
-- [+0] Trump Just Disclosed Tesla and SpaceX Stock Purchases. Here's What His Portfolio Moves Reveal
 ### 1919 HK
 - [+0] How a Looming Port Worker Strike Could Grinch the Holidays
 - [+1] Cosco profit rockets 81% as ocean freight revenue climbs in Q3
@@ -145,29 +145,17 @@
 - [+0] Should Value Investors Buy China Cosco (CICOY) Stock?
 ### COST US
 - [+0] Walmart, Costco see some panic-buying after tech outages
+- [+1] Jim Cramer sends strong signal to Costco investors
 - [+0] Consumers stock doomsday pantries as tech outages cause jitters
 - [+0] Why JPMorgan’s 13x P/E isn’t the bargain it looks like
 - [+0] Doomsday Deals: Mizuho Hikes Its Costco Stock Price Target as Panic-Buying Spikes on Apocalypse Fears
 - [+0] Tariff Refunds Are About A Fifth Of Target's Guidance
-- [+0] Costco has a plan for the money you didn’t mean to spend
-### 5929 JP
-- [+0] Sanwa Holdings (TSE:5929) Stock Could Be 26% Undervalued On Cash Flow
-- [+1] Asian Dividend Stocks To Enhance Your Portfolio
-- [+1] Global Dividend Stocks Spotlighting Three Key Players
-- [+1] Top Asian Dividend Stocks To Consider In May 2026
-- [+1] Asian Dividend Stocks To Watch In May 2026
-- [+1] 3 Global Dividend Stocks To Consider With At Least 3.2% Yield
 ### MCX IN
 - [+1] Multi Commodity Exchange of India Ltd (BOM:534091) (Q2 2027) Earnings Call Highlights: Profit ...
 - [+0] Safer Crypto Access Through HUB24 Stock And Other Regulated Platforms
 - [+1] Multi Commodity Exchange of India Ltd (BOM:534091) (Q1 2027) Earnings Call Highlights: Record ...
-### AMZN US
-- [+0] GTA VI: Why the 13-year wait could be worth $8 billion
-- [+0] Peter Thiel Now Has as Much Money in an Argentine Oil Stock as in Amazon. It’s Down 23% Since September 30
-- [+0] Is Your VOO Fund Secretly An AI Bet?
-- [+1] Anthropic’s Margins Will Be “Probably Better Than a Hyperscaler,” Says Its Most Bullish Analyst. Here’s What That Takes
-- [+0] Anthropic Just Went Public at $1.5 Trillion. VOO Won’t Own a Share Until Late 2027 at the Earliest
-- [+0] Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill
+### 9735 JP
+- [+1] SECOM Co Ltd's Dividend Analysis
 ### 9697 JP
 - [+1] Disney Q4 Earnings Beat Estimates, Revenues Rise Y/Y
 - [+0] Capcom (TSE:9697) Stock Looks Fully Valued As Its 220% Run Continues
@@ -175,18 +163,26 @@
 - [+1] Capcom (TSE:9697) After Strong Results And A Higher Dividend Looks Fully Valued
 - [+1] Capcom Co Ltd (CCOEF) (Q2 2027) Earnings Call Highlights: Record-Breaking 14th Consecutive ...
 - [+0] Capcom (TSE:9697) Stock Faces A Q2 Earnings Margin Reckoning
-### 9143 JP
-- [+0] How Raised Outlook Will Impact SG Holdings Stock (TSE:9143)
-### 3391 JP
-- [+0] Tsuruha Holdings (TSE:3391) Stock Looks About Right At Today’s Earnings Level
-- [+0] Tsuruha Holdings (TSE:3391) Could Be 68% Below Fair Value As Half Year Results Land
-### 3988 HK
-- [+0] Hong Kong, Swift and Major Banks Test Blockchain-Based Cross-Border Payments
-- [+0] HKMA and Swift test tokenised deposits for cross-border payments
-- [+0] Is Bank of China (BACHY) Outperforming Other Finance Stocks This Year?
-- [+0] HKMA Pilot Lets Banks Settle Tokenized Deposits Nights and Weekends in Central Bank Money
-- [+0] Neoen obtains $1.2bn debt financing for Australian renewable projects
-- [+0] China big bank shares jump after robust third-quarter earnings
+### 3774 JP
+- [+0] Is Internet Initiative Japan (TSE:3774) Already Too Expensive After A 79% Run?
+- [+0] Internet Initiative: Fiscal Q2 Earnings Snapshot
+- [+1] Internet Initiative Japan (TSE:3774) Extends Its Rally Following Momentum Fueled Questions Over Value
+### 3659 JP
+- [+1] NEXON Co Ltd's Dividend Analysis
+- [+1] NEXON Co Ltd (NEXOF) (Q2 2026) Earnings Call Highlights: Record MapleStory Performance and ...
+- [+0] Earnings Results, Soft US Inflation Report Lift Asian Stock Markets
+- [+0] How Japan’s Public Companies Are Quietly Becoming Digital Asset Treasury Giants
+- [+0] Tencent Chip Setback And Nexon Renewal Reframe AI And Gaming Outlook
+- [+0] Nexxen (NEXN) Q1 2026 Earnings Call Transcript
+### 2002 JP
+- [+1] Will Buyback Plan Change Nisshin Seifun's (TSE:2002) Narrative
+### 9201 JP
+- [+1] Embraer's Record Backlog Looks Promising, But Can It Keep Its Margins Climbing?
+- [+0] Is Japan Airlines (TSE:9201) Priced Right for Its Earnings Power?
+- [+0] Binance Heist: ‘Welcome to Our World,’ CISOs Say
+- [+0] Japan Airlines hires B747 cargo carriers to meet high-tech demand
+- [+0] Should Value Investors Buy Japan Airlines (JAPSY) Stock?
+- [+0] Nippon Express launches Transpacific air freight service to meet AI-driven cargo demand
 ### 6758 JP
 - [+0] GTA VI: Why the 13-year wait could be worth $8 billion
 - [+0] Sony shares rise as Playstation dominates GTA VI sales
@@ -194,3 +190,17 @@
 - [+0] Take-Two isn’t the only stock with a stake in GTA 6
 - [+0] Sony: 3 Key Takeaways for Long-Term Investors
 - [+0] Forget Take-Two: Sony Is the Overlooked Winner of GTA VI’s Huge Preorders
+### 2587 JP
+- [+0] Suntory Beverage & Food (TSE:2587) Stock May Be 47% Undervalued On Cash Flow
+- [+0] Suntory Beverage And Food (TSE:2587) Stock May Be Reasonably Priced On Earnings
+- [+1] Can Celsius Holdings Sustain the 55% International Sales Growth?
+- [+1] Celsius Spain Deal Extends Global Reach After Earnings Beat And Buyback
+- [+0] Is Suntory Beverage & Food (TSE:2587) Still Attractive After Recent Share Price Softness?
+- [+0] Suntory Beverage & Food invests in UK production
+### 3988 HK
+- [+0] Hong Kong, Swift and Major Banks Test Blockchain-Based Cross-Border Payments
+- [+0] HKMA and Swift test tokenised deposits for cross-border payments
+- [+0] Is Bank of China (BACHY) Outperforming Other Finance Stocks This Year?
+- [+0] HKMA Pilot Lets Banks Settle Tokenized Deposits Nights and Weekends in Central Bank Money
+- [+0] Neoen obtains $1.2bn debt financing for Australian renewable projects
+- [+0] China big bank shares jump after robust third-quarter earnings
