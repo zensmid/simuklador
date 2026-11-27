@@ -1,3 +1,3 @@
-# Briefing 2026-11-26 21:31 UTC
+# Briefing 2026-11-27 03:38 UTC
 
 _Sin ANTHROPIC_API_KEY: solo contexto de datos._
