@@ -1,52 +1,52 @@
-# Scan 2026-11-27 03:38 UTC
-Universo: 2842 | con datos y liquidez: 879 | análisis completo: 40
+# Scan 2026-11-27 05:23 UTC
+Universo: 2842 | con datos y liquidez: 920 | análisis completo: 40
 
 | # | Ticker | Rec | Score | Téc | Fund | Noticias | 3M | 1A |
 |---|---|---|---|---|---|---|---|---|
-| 1 | LODHA IN | COMPRA FUERTE | +0.85 | +0.80 | +0.83 | +1.00 | +0% | +6% |
-| 2 | PNB IN | COMPRA FUERTE | +0.77 | +0.80 | +0.80 | +0.67 | +27% | +24% |
-| 3 | 7747 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +4% | +80% |
-| 4 | JSWINFRA IN | COMPRA FUERTE | +0.64 | +0.80 | +0.50 | +0.50 | +7% | +33% |
-| 5 | 7269 JP | COMPRA FUERTE | +0.63 | +0.80 | +0.67 | +0.20 | +10% | +3% |
-| 6 | 3088 JP | COMPRA FUERTE | +0.58 | +0.80 | +0.33 | +0.50 | +15% | +0% |
-| 7 | ENTEL CI | COMPRA FUERTE | +0.58 | +0.80 | +0.33 | +0.50 | +51% | +21% |
-| 8 | 068270 KS | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +15% | +23% |
-| 9 | SAILIFE IN | COMPRA FUERTE | +0.56 | +0.80 | +0.00 | +1.00 | +23% | +105% |
-| 10 | 2801 JP | COMPRA FUERTE | +0.56 | +0.80 | +0.33 | +0.40 | +0% | +39% |
-| 11 | 8060 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.33 | +0.33 | +21% | +32% |
-| 12 | 3626 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +14% | -12% |
-| 13 | 2269 JP | COMPRA FUERTE | +0.53 | +0.80 | +0.33 | +0.25 | +10% | +57% |
-| 14 | MCX IN | COMPRA | +0.49 | +0.80 | +0.00 | +0.67 | +18% | +99% |
-| 15 | 7701 JP | COMPRA | +0.49 | +0.80 | +0.17 | +0.33 | +13% | +7% |
-| 16 | 2587 JP | COMPRA | +0.49 | +0.80 | +0.17 | +0.33 | +17% | +11% |
-| 17 | 2212 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +24% | +48% |
-| 18 | 9143 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +5% | +11% |
-| 19 | 3092 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +11% | +1% |
-| 20 | 9605 JP | COMPRA | +0.46 | +0.80 | +0.00 | +0.50 | +3% | +12% |
-| 21 | 8303 JP | COMPRA | +0.42 | +1.00 | +0.00 | -0.14 | +3% | +0% |
-| 22 | 4528 JP | COMPRA | +0.42 | +0.80 | +0.17 | +0.00 | +12% | +41% |
-| 23 | MEESHO IN | COMPRA | +0.42 | +0.80 | +0.00 | +0.29 | +23% | +0% |
-| 24 | 6869 JP | COMPRA | +0.41 | +0.80 | +0.00 | +0.25 | +14% | +40% |
-| 25 | 7974 JP | COMPRA | +0.40 | +0.80 | +0.00 | +0.20 | +4% | -33% |
+| 1 | 4768 JP | COMPRA FUERTE | +0.68 | +0.80 | +0.33 | +1.00 | +14% | +38% |
+| 2 | 4568 JP | COMPRA FUERTE | +0.67 | +0.80 | +0.83 | +0.10 | +3% | -14% |
+| 3 | 7747 JP | COMPRA FUERTE | +0.65 | +0.80 | +0.83 | +0.00 | +4% | +79% |
+| 4 | 011200 KS | COMPRA FUERTE | +0.64 | +0.80 | +0.80 | +0.00 | +5% | +20% |
+| 5 | JSWINFRA IN | COMPRA FUERTE | +0.64 | +0.80 | +0.50 | +0.50 | +4% | +29% |
+| 6 | 7269 JP | COMPRA FUERTE | +0.63 | +0.80 | +0.67 | +0.20 | +9% | +3% |
+| 7 | 9983 JP | COMPRA FUERTE | +0.60 | +0.80 | +0.33 | +0.60 | +18% | +49% |
+| 8 | INTP IJ | COMPRA FUERTE | +0.59 | +0.80 | +0.67 | +0.00 | +13% | +2% |
+| 9 | ENTEL CI | COMPRA FUERTE | +0.58 | +0.80 | +0.33 | +0.50 | +51% | +21% |
+| 10 | 192820 KS | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +11% | +104% |
+| 11 | 068270 KS | COMPRA FUERTE | +0.57 | +0.80 | +0.60 | +0.00 | +15% | +23% |
+| 12 | 8725 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.33 | +0.33 | +12% | +72% |
+| 13 | TRENT IN | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +12% | -25% |
+| 14 | 7751 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +9% | +17% |
+| 15 | 417A JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +8% | +23% |
+| 16 | 8876 JP | COMPRA FUERTE | +0.54 | +0.80 | +0.50 | +0.00 | +12% | +50% |
+| 17 | 2269 JP | COMPRA FUERTE | +0.53 | +0.80 | +0.33 | +0.25 | +9% | +55% |
+| 18 | 4543 JP | COMPRA FUERTE | +0.51 | +0.80 | +0.17 | +0.44 | +3% | +6% |
+| 19 | 008930 KS | COMPRA FUERTE | +0.50 | +0.80 | +0.40 | +0.00 | +33% | +47% |
+| 20 | 6367 JP | COMPRA | +0.50 | +0.80 | +0.17 | +0.40 | +15% | +20% |
+| 21 | 6758 JP | COMPRA | +0.50 | +0.80 | +0.33 | +0.10 | +15% | -5% |
+| 22 | 2587 JP | COMPRA | +0.49 | +0.80 | +0.17 | +0.33 | +16% | +10% |
+| 23 | 7550 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +18% | +49% |
+| 24 | 3092 JP | COMPRA | +0.48 | +0.80 | +0.33 | +0.00 | +11% | +0% |
+| 25 | 6988 JP | COMPRA | +0.46 | +0.80 | +0.00 | +0.50 | +10% | -4% |
 
 ## Rebalanceo sugerido
 ```
 ÓRDENES (monto en USD):
   RECORTAR DVN US      $      11,904   20.7% -> 19.5%
-  COMPRAR  LODHA IN    $      69,741   COMPRA FUERTE, score +0.85
-  COMPRAR  SAILIFE IN  $      71,989   COMPRA FUERTE, score +0.79
-  COMPRAR  PNB IN      $      89,799   COMPRA FUERTE, score +0.77
-  COMPRAR  MCX IN      $      63,681   COMPRA FUERTE, score +0.73
-  COMPRAR  7747 JP     $      63,531   COMPRA FUERTE, score +0.65
+  COMPRAR  4768 JP     $      86,770   COMPRA FUERTE, score +0.68
+  COMPRAR  4568 JP     $      65,049   COMPRA FUERTE, score +0.67
+  COMPRAR  7747 JP     $      68,644   COMPRA FUERTE, score +0.65
+  COMPRAR  011200 KS   $      61,541   COMPRA FUERTE, score +0.64
+  COMPRAR  JSWINFRA IN $      76,738   COMPRA FUERTE, score +0.64
 
 CARTERA RESULTANTE:
   DVN US      $     195,000   19.5%
   AAPL US     $     101,664   10.2%
-  PNB IN      $      89,799    9.0%
-  SAILIFE IN  $      71,989    7.2%
-  LODHA IN    $      69,741    7.0%
-  MCX IN      $      63,681    6.4%
-  7747 JP     $      63,531    6.4%
+  4768 JP     $      86,770    8.7%
+  JSWINFRA IN $      76,738    7.7%
+  7747 JP     $      68,644    6.9%
+  4568 JP     $      65,049    6.5%
+  011200 KS   $      61,541    6.2%
   TBBB US     $      39,426    3.9%
   MSFT US     $      29,352    2.9%
   MELI UW     $      28,013    2.8%
